@@ -3610,6 +3610,18 @@ components:
           Date:
               $ref: '#/components/schemas/DateTime'
               description: '|||'
+          AccountBalance:
+              $ref: '#/components/schemas/Balance'
+              description: >-
+                Balance|Balance
+                (https://www.iso20022.org/standardsrepository/type/Balance)|Standard|ISO20022
+                BM ()
+          Accountbalance:
+              $ref: '#/components/schemas/Accountbalance'
+              description: '|||'
+          CreditLine:
+              $ref: '#/components/schemas/CreditLine'
+              description: '|||'
           StatementsSchedule:
               $ref: '#/components/schemas/Schedule'
               description: '|||'
@@ -14776,6 +14788,177 @@ components:
           Decimal fractions of seconds may be included. In this case, the
           involved parties shall agree on the maximum number of digits that are
           allowed.
+    Balance:
+        type: object
+        description: >-
+          (DDD Entity) -  Balance|Balance
+          (https://www.iso20022.org/standardsrepository/type/Balance)|Standard|ISO20022
+          BM ()
+        properties:
+          Type:
+              type: string
+              format: BalanceTypeCode
+              description: '(DDD Entity) - Specifies the nature of a balance. '
+          ValueDate:
+              type: string
+              format: ISODateTime
+              description: '(DDD Entity) - Date and time at which the balance is or will be available. '
+          CreditDebitIndicator:
+              type: string
+              format: DebitCreditCode
+              description: >-
+                (DDD Entity) - Indicates whether the balance is a credit or a debit
+                balance. A zero balance is considered to be a credit balance 
+          AssetHolding:
+              type: string
+              format: AssetHolding
+              description: >-
+                (DDD Entity) - Specifies in terms of value and quantity the assets held in
+                a balance. 
+          CalculationDate:
+              type: string
+              format: ISODateTime
+              description: >-
+                (DDD Entity) - Specifies the date and time at which the balance is
+                calculated. 
+          Adjustment:
+              type: string
+              format: Adjustment
+              description: '(DDD Entity) - Specifies the balance adjustments. '
+          Account:
+              type: string
+              format: Account
+              description: '(DDD Entity) - Account or sub-account for which a balance is calculated. '
+          Interest:
+              type: string
+              format: Interest
+              description: >-
+                (DDD Entity) - Set of elements used to provide interest information that
+                applies to the balance. 
+          BalanceEntry:
+              type: string
+              format: Entry
+              description: '(DDD Entity) - Credit or debit postings used to calculate a balance. '
+          ProcessingRestriction:
+              type: string
+              format: ProcessingTypeCode
+              description: >-
+                (DDD Entity) - Specifies the type of balance processing restrictions that
+                must be applied. 
+          OpeningClosingCode:
+              type: string
+              format: OpeningClosingCode
+              description: >-
+                (DDD Entity) - Specifies whether the balance is an opening or a closing
+                one. 
+    Accountbalance:
+        type: object
+        description: >-
+          (DDD Entity) - The state of the obligations managed on the account, the result of
+          all entries on the account.
+
+
+          Numerical representation of the net increases and decreases in an
+          account at a specific point in time. (ISO20022)
+
+
+          Banking: Amount available in an account for withdrawal or use.
+
+          Read more: http://www.businessdictionary.com/definition/balance.html
+
+
+          Bookkeeping: Difference between the debit and credit sides of an
+          account.
+
+          Read more: http://www.businessdictionary.com/definition/balance.html
+        properties:
+          BalanceAmount:
+              $ref: '#/components/schemas/Amount'
+              description: ''
+          BalanceType:
+              enum:
+                  -  Openingbalance
+                  -  Closingbalance
+                  -  Currentbalance
+                  -  Availablebalance
+                  -  Ledgerbalance
+                  -  Reservebalance
+                  -  Freebalance
+                  -  Principalbalance
+              type: string
+              description: ">\r\n* `Openingbalance` \r\n* `Closingbalance` \r\n* `Currentbalance` \r\n* `Availablebalance` \r\n* `Ledgerbalance` \r\n* `Reservebalance` \r\n* `Freebalance` \r\n* `Principalbalance` \r\n* "
+          BalanceDate:
+              $ref: '#/components/schemas/Datetime'
+              description: ''
+          BalanceIndicator:
+              enum:
+                  -  Debit
+                  -  Credit
+              type: string
+              description: ">\r\n* `Debit` \r\n* `Credit` \r\n* "
+          Accountbalance:
+              type: string
+              description: ''
+              format: DataType
+    Amount:
+        type: object
+        description: (DDD Entity) - The amount being blocked
+        properties:
+          AmountValue:
+              $ref: '#/components/schemas/Value'
+              description: ''
+          AmountCurrency:
+              $ref: '#/components/schemas/CurrencyCode'
+              description: ''
+          DecimalPointPosition:
+              type: string
+              description: ''
+              format: String
+          AmountType:
+              enum:
+                  -  Principal
+                  -  Actual
+                  -  Estimated
+                  -  Maximum
+                  -  Default
+                  -  Replacement
+                  -  Incremental
+                  -  Decremental
+                  -  Reserved
+                  -  Available
+                  -  Used
+              type: string
+              description: ">\r\n* `Principal` \r\n* `Actual` \r\n* `Estimated` \r\n* `Maximum` \r\n* `Default` \r\n* `Replacement` \r\n* `Incremental` \r\n* `Decremental` \r\n* `Reserved` \r\n* `Available` \r\n* `Used` \r\n* "
+    CreditLine:
+        type: array
+        items:
+          type: object
+          description: >-
+            Set of elements used to provide details on the credit
+            line.
+          required:
+            - Included
+          properties:
+            Included:
+              description: >-
+                Indicates whether or not the credit line is included
+                in the balance of the account.
+
+                Usage: If not present, credit line is not included
+                in the balance amount of the account.
+              type: boolean
+            Type:
+              description: 'Limit type, in a coded form.'
+              type: string
+              enum:
+                - Available
+                - Credit
+                - Emergency
+                - Pre-Agreed
+                - Temporary
+            Amount:
+              $ref: '#/components/schemas/Amount'
+              description: ''
     Adjustment:
         type: object
         description: >-

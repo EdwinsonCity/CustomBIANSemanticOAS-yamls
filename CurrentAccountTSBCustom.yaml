@@ -3091,6 +3091,12 @@ components:
                 Balance|Balance
                 (https://www.iso20022.org/standardsrepository/type/Balance)|Standard|ISO20022
                 BM ()
+          Accountbalance:
+              $ref: '#/components/schemas/Accountbalance'
+              description: '|||'
+          CreditLine:
+              $ref: '#/components/schemas/CreditLine'
+              description: '|||'
           CurrentAccountProductName:
               $ref: '#/components/schemas/Name'
               description: >-
@@ -6968,6 +6974,36 @@ components:
               type: string
               description: ''
               format: DataType
+    CreditLine:
+        type: array
+        items:
+          type: object
+          description: >-
+            Set of elements used to provide details on the credit
+            line.
+          required:
+            - Included
+          properties:
+            Included:
+              description: >-
+                Indicates whether or not the credit line is included
+                in the balance of the account.
+
+                Usage: If not present, credit line is not included
+                in the balance amount of the account.
+              type: boolean
+            Type:
+              description: 'Limit type, in a coded form.'
+              type: string
+              enum:
+                - Available
+                - Credit
+                - Emergency
+                - Pre-Agreed
+                - Temporary
+            Amount:
+              $ref: '#/components/schemas/Amount'
+              description: ''
     Accountcurrency:
         type: object
         properties:
