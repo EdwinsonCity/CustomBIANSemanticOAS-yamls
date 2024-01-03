@@ -89,7 +89,7 @@ paths:
             $ref: '#/components/responses/TooManyRequests'
           '500':
             $ref: '#/components/responses/InternalServerError'
-  '/CustomerProductAndServiceDirectoryEntry/{CustomerID}/Retriee':
+  '/CustomerProductAndServiceDirectoryEntry/{CustomerID}/Retrieve':
       get:
         tags:
           - CR (DDD Aggregate) - CustomerProductAndServiceDirectoryEntry'
@@ -516,7 +516,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -673,7 +673,7 @@ components:
         type: object
         description: >-
           (DDD Entity) - The identifier of agreement like Agreement Number, Contract
-          Number, Contract Registration Number, etc. 
+          Number, Contract Registration Number, etc.
         properties:
           IdentifierValue:
               $ref: '#/components/schemas/Value'
@@ -974,7 +974,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1022,7 +1022,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1070,7 +1070,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1118,7 +1118,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1166,7 +1166,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1214,7 +1214,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1262,7 +1262,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1312,7 +1312,7 @@ components:
             CustomerProductAndServiceDirectoryEntryStatus:
                 $ref: '#/components/schemas/Status'
                 description: >-
-                  Status |Status 
+                  Status |Status
                   (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                   BM ()
             CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1360,7 +1360,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1408,7 +1408,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1456,7 +1456,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1504,7 +1504,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1552,7 +1552,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1600,7 +1600,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1648,7 +1648,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1696,7 +1696,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1744,7 +1744,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1792,7 +1792,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -1946,7 +1946,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2013,7 +2013,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2056,7 +2056,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2080,7 +2080,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2212,7 +2212,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2279,7 +2279,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2322,7 +2322,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2346,7 +2346,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2478,7 +2478,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2545,7 +2545,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2588,7 +2588,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2612,7 +2612,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2744,7 +2744,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -2811,7 +2811,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2854,7 +2854,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -2878,7 +2878,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -3010,7 +3010,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -3077,7 +3077,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -3120,7 +3120,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -3144,7 +3144,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -3276,7 +3276,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -3343,7 +3343,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -3386,7 +3386,7 @@ components:
           ServiceLifecycleStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           ServiceFeature:
@@ -3410,7 +3410,7 @@ components:
           CustomerProductAndServiceDirectoryEntryStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           CustomerProductAndServiceDirectoryEntryUsageLog:
@@ -3461,7 +3461,7 @@ components:
         type: object
         description: >-
           (DDD Entity) - The status of Customer Products And Services Directory Entry
-          Status |Status 
+          Status |Status
           (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
           BM ()
         properties:
@@ -3490,7 +3490,7 @@ components:
               format: InvestigationPartyRole
               description: >-
                 (DDD Entity) - Role played by a party in the context of assigning a
-                status. 
+                status.
           SettlementStatus:
               type: string
               format: SecuritiesSettlementStatusCode
@@ -3504,7 +3504,7 @@ components:
               format: InstructionProcessingStatusCode
               description: >-
                 (DDD Entity) - Status of processing of a transaction at account servicer
-                level. 
+                level.
           ModificationProcessingStatus:
               type: string
               format: ModificationProcessingStatusCode
@@ -3524,19 +3524,19 @@ components:
               description: >-
                 (DDD Entity) - Name or number assigned by an entity to enable recognition
                 of that entity, for example account identifier, identification
-                assigned by a provider to identify its customers. 
+                assigned by a provider to identify its customers.
           IdentificationForContactPoint:
               type: string
               format: ContactPoint
               description: >-
                 (DDD Entity) - Contact point which uses a generic identification as
-                identification. 
+                identification.
           IdentificationForAccount:
               type: string
               format: AccountIdentification
               description: >-
                 (DDD Entity) - Account Identification which uses a generic identification
-                as proprietary identification. 
+                as proprietary identification.
           RelatedPartyIdentification:
               type: string
               format: PartyIdentificationInformation
@@ -3554,19 +3554,19 @@ components:
               format: Scheme
               description: >-
                 (DDD Entity) - Information regarding an enumerated code list and its
-                owner. 
+                owner.
           IdentificationForSecuritiesCertificate:
               type: string
               format: SecuritiesCertificate
               description: >-
                 (DDD Entity) - Securities certificate which uses a generic identification
-                as certificate number. 
+                as certificate number.
           IdentificationForLot:
               type: string
               format: LotBreakdown
               description: >-
                 (DDD Entity) - Lot breakdown which uses a generic identification as lot
-                number. 
+                number.
           PartyRole:
               type: string
               format: InformationPartyRole
@@ -3576,25 +3576,25 @@ components:
               format: CashProceedsDefinition
               description: >-
                 (DDD Entity) - Cash proceeds definition which uses a generic identification
-                as type of income. 
+                as type of income.
           RelatedStatusReason:
               type: string
               format: StatusReason
               description: >-
                 (DDD Entity) - Specifies the status reason for which a data source scheme
-                is specified. 
+                is specified.
           IdentificationForBankTransaction:
               type: string
               format: BankTransaction
               description: >-
                 (DDD Entity) - Bank transaction which uses a generic identification as
-                proprietary identification. 
+                proprietary identification.
           IdentificationForAccountCostReferencePattern:
               type: string
               format: AccountIdentification
               description: >-
                 (DDD Entity) - Account identification for which a cost reference pattern is
-                provided. 
+                provided.
           Account:
               type: string
               format: Account
@@ -3616,7 +3616,7 @@ components:
               format: InvestmentFundClass
               description: >-
                 (DDD Entity) - Investment fund class which uses a generic identification as
-                fund classification. 
+                fund classification.
           IdentifiedLocation:
               type: string
               format: Location
@@ -3626,7 +3626,7 @@ components:
               format: SecuritiesIdentification
               description: >-
                 (DDD Entity) - Securities identification for which generic identification
-                elements and scheme are provided. 
+                elements and scheme are provided.
           IdentifiedDocument:
               type: string
               format: Document
@@ -3640,7 +3640,7 @@ components:
               format: RegisteredContract
               description: >-
                 (DDD Entity) - Related certificate against which all transactions in the
-                scope of the regulatory requirements are registered. 
+                scope of the regulatory requirements are registered.
     Name:
         type: string
         format: ''
