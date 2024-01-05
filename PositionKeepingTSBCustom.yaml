@@ -196,6 +196,36 @@ paths:
             $ref: '#/components/responses/TooManyRequests'
           '500':
             $ref: '#/components/responses/InternalServerError'
+  '/PositionKeeping/FinancialTransactionCapture/Account/{AccountID}/Retrieve':
+      get:
+        tags:
+          - BQ (DDD Aggregate) - FinancialTransactionCapture'
+        summary: >-
+          (DDD Service) ReBQ Retrieve details of financial transactions captured
+          in the log for an Account
+        description: >-
+          (DDD Service) ReBQ Retrieve details of financial transactions captured
+          in the log for an Account
+        operationId: FinancialTransactionCapture/Account/Retrieve
+        parameters:
+          - $ref: '#/components/parameters/AccountID'
+          - $ref: '#/components/parameters/FromBookingDateTimeParam'
+          - $ref: '#/components/parameters/ToBookingDateTimeParam'
+        responses:
+          '200':
+            $ref: '#/components/responses/RetrieveFinancialTransactionCaptureAccountResponse'
+          '400':
+            $ref: '#/components/responses/BadRequest'
+          '401':
+            $ref: '#/components/responses/Unauthorized'
+          '403':
+            $ref: '#/components/responses/Forbidden'
+          '404':
+            $ref: '#/components/responses/NotFound'
+          '429':
+            $ref: '#/components/responses/TooManyRequests'
+          '500':
+            $ref: '#/components/responses/InternalServerError'
 components:
   schemas:
     InitiateFinancialPositionLogRequest:
@@ -3510,20 +3540,37 @@ components:
           PostingTransaction:
               $ref: '#/components/schemas/Transaction'
               description: '|||'
-          FinancialTransaction:
-              $ref: '#/components/schemas/FinancialTransaction'
-              description: '|||'
-          StatementReference:
-              type: array
-              items:
-                $ref: '#/components/schemas/StatementReference'
-              description: '|||'
           PostingValueDate:
               $ref: '#/components/schemas/ISODate'
               description: >-
                 ISODate|ISODate
                 (https://www.iso20022.org/standardsrepository/type/ISODate)|Standard|ISO20022
                 BM ()
+    RetrieveFinancialTransactionCaptureAccountResponse:
+        type: array
+        items:
+          type: object
+          properties:
+            PostingDescription:
+                $ref: '#/components/schemas/Text'
+                description: '|||'
+            PostingTransaction:
+                $ref: '#/components/schemas/Transaction'
+                description: '|||'
+            FinancialTransaction:
+                $ref: '#/components/schemas/FinancialTransaction'
+                description: '|||'
+            StatementReference:
+                type: array
+                items:
+                  $ref: '#/components/schemas/StatementReference'
+                description: '|||'
+            PostingValueDate:
+                $ref: '#/components/schemas/ISODate'
+                description: >-
+                  ISODate|ISODate
+                  (https://www.iso20022.org/standardsrepository/type/ISODate)|Standard|ISO20022
+                  BM ()
     RetrieveFinancialTransactionCapture:
         type: object
         properties:
@@ -4019,6 +4066,12 @@ components:
           'application/json:':
             schema:
               $ref: '#/components/schemas/RetrieveFinancialTransactionCaptureResponse'
+    RetrieveFinancialTransactionCaptureAccountResponse:
+        description: FinancialTransactionCaptureAccountRetrieve
+        content:
+          'application/json:':
+            schema:
+              $ref: '#/components/schemas/RetrieveFinancialTransactionCaptureAccountResponse'
     BadRequest:
         description: BadRequest
         content:
@@ -4070,6 +4123,39 @@ components:
         style: simple
         schema:
           type: string
+    AccountID:
+        name: AccountID
+        in: path
+        required: true
+        style: simple
+        schema:
+          type: string
+    FromBookingDateTimeParam:
+      in: query
+      name: fromBookingDateTime
+      description: >-
+        The UTC ISO 8601 Date Time to filter transactions FROM
+
+        NB Time component is optional - set to 00:00:00 for just Date.
+
+        If the Date Time contains a timezone, the ASPSP must ignore the timezone
+        component.
+      schema:
+        type: string
+        format: date-time
+    ToBookingDateTimeParam:
+      in: query
+      name: toBookingDateTime
+      description: >-
+        The UTC ISO 8601 Date Time to filter transactions TO
+
+        NB Time component is optional - set to 00:00:00 for just Date.
+
+        If the Date Time contains a timezone, the ASPSP must ignore the timezone
+        component.
+      schema:
+        type: string
+        format: date-time
   requestBodies:
     InitiateFinancialPositionLogRequest:
         content:
