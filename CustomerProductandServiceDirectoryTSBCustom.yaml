@@ -7,6 +7,8 @@ info:
   version: 12.0.1
 servers:
   - url: ' https://virtserver.swaggerhub.com/BIAN-3/CustomerProductandServiceDirectory/12.0.1'
+security:
+  - bearerAuth: []
 paths:
   '/CustomerProductAndServiceDirectoryEntry/{customerproductandservicedirectoryentryid}/Control':
       put:
@@ -8399,6 +8401,11 @@ components:
         style: simple
         schema:
           type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
   requestBodies:
     ControlCustomerProductAndServiceDirectoryEntryRequest:
         content:
