@@ -907,6 +907,9 @@ components:
                   Party|Party
                   (https://www.iso20022.org/standardsrepository/type/Party)|Standard|ISO20022BM
                   ()
+            PartyInvolvement:
+                $ref: '#/components/schemas/Partyrole'
+                description: ''
             DirectoryEntryDateType:
                 enum:
                     -  OpenDate
@@ -2949,6 +2952,36 @@ components:
           PartyName:
               $ref: '#/components/schemas/Name'
               description: ''
+          PartyFullLegalName:
+              $ref: '#/components/schemas/Name'
+              description: >-
+                Name|Name
+                (https://www.iso20022.org/standardsrepository/type/Name)|Standard|ISO20022
+                ()
+          PartyLegalStructure:
+              enum:
+                  -  Individual
+                  -  CommunityInterestCompany
+                  -  Co-Operative
+                  -  Charity
+                  -  GeneralPartnership
+                  -  LimitedLiabilityPartnership
+                  -  ScottishLimitedPartnership
+                  -  LimitedPartnership
+                  -  PrivateLimitedCompany
+                  -  PublicLimitedCompany
+                  -  Sole(SoleTrader)
+              type: string
+              description: ">\r\n* `Individual` \r\n* `CommunityInterestCompany` \r\n* `CoOperative` \r\n* `Charity` \r\n* `GeneralPartnership` \r\n* `LimitedLiabilityPartnership` \r\n* `ScottishLimitedPartnership` \r\n* `LimitedPartnership` \r\n* `PrivateLimitedCompany` \r\n* `PublicLimitedCompany` \r\n* `SoleSoleTrader` \r\n* "
+          eMailAddress:
+              $ref: '#/components/schemas/ContactPoint'
+              description: "ContactPoint\_|ContactPoint\_ (https://www.iso20022.org/standardsrepository/type/ContactPoint)|Standard|ISO20022 BM  ()"
+          CellPhoneNumber:
+              $ref: '#/components/schemas/ContactPoint'
+              description: "ContactPoint\_|ContactPoint\_ (https://www.iso20022.org/standardsrepository/type/ContactPoint)|Standard|ISO20022 BM  ()"
+          PhoneNumber:
+              $ref: '#/components/schemas/ContactPoint'
+              description: "ContactPoint\_|ContactPoint\_ (https://www.iso20022.org/standardsrepository/type/ContactPoint)|Standard|ISO20022 BM  ()"
           AccountIdentificationType:
               enum:
                   -  BBAN
