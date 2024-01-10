@@ -1264,6 +1264,13 @@ components:
           OfferFeeAmount:
               $ref: '#/components/schemas/Amount'
               description: ''
+          URL:
+              description: >-
+                URL (Uniform Resource Locator) where documentation on the
+                offer can be found
+              type: string
+              minLength: 1
+              maxLength: 256
     Rate:
         type: object
         description: (DDD Entity) - Rate associated with the offer type.
