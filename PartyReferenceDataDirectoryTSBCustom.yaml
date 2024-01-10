@@ -897,75 +897,77 @@ components:
               type: string
               description: ">\r\n* `Person` \r\n* `Organisation` \r\n* "
     RetrievePartyReferenceDataDirectoryEntryAccountResponse:
-        type: object
-        properties:
-          PartyReference:
-              $ref: '#/components/schemas/Party'
-              description: >-
-                Party|Party
-                (https://www.iso20022.org/standardsrepository/type/Party)|Standard|ISO20022BM
-                ()
-          DirectoryEntryDateType:
-              enum:
-                  -  OpenDate
-                  -  RefreshDate
-              type: string
-              description: ">\r\n* `OpenDate` \r\n* `RefreshDate` \r\n* "
-          DirectoryEntryDate:
-              $ref: '#/components/schemas/ISODateTime'
-              description: >-
-                ISODateTime|ISODateTime
-                (https://www.iso20022.org/standardsrepository/type/ISODateTime)|Standard|ISO20022
-                BM ()
-          PartyType:
-              enum:
-                  -  Person
-                  -  Organisation
-              type: string
-              description: ">\r\n* `Person` \r\n* `Organisation` \r\n* "
-          PartyIdentificationType:
-              enum:
-                  -  Taxidentificationnumber
-                  -  Nationalregistrationnumber
-                  -  LEI(LegalEntityIdentifier)
-                  -  Alienregistrationnumber
-                  -  Passportnumber
-                  -  Corporateidentification
-                  -  Driverlicensenumber
-                  -  Socialsecuritynumber
-                  -  Identitycardnumber
-                  -  Concat
-              type: string
-              description: ">\r\n* `Taxidentificationnumber` \r\n* `Nationalregistrationnumber` \r\n* `LEILegalEntityIdentifier` \r\n* `Alienregistrationnumber` \r\n* `Passportnumber` \r\n* `Corporateidentification` \r\n* `Driverlicensenumber` \r\n* `Socialsecuritynumber` \r\n* `Identitycardnumber` \r\n* `Concat` \r\n* "
-          PartyIdentification:
-              $ref: '#/components/schemas/Identifier'
-              description: ''
-          Partyidentification:
-              type: string
-              description: ''
-              format: DataType
-          RelationshipType:
-              enum:
-                  -  PartyIsParentOfParty
-                  -  PartyIsSubsidiaryOfParty
-                  -  PartyIsCertifiedByParty
-                  -  PartyIsMarriedToParty
-                  -  PartyActsOnBehalfOfParty
-                  -  PartyIsPowerOfAttorneyParty
-                  -  PartyIsTrustedByParty
-                  -  PartyIsContactPointForParty
-                  -  PartyReceivesBenefitsFromParty
-              type: string
-              description: ">\r\n* `PartyIsParentOfParty` \r\n* `PartyIsSubsidiaryOfParty` \r\n* `PartyIsCertifiedByParty` \r\n* `PartyIsMarriedToParty` \r\n* `PartyActsOnBehalfOfParty` \r\n* `PartyIsPowerOfAttorneyParty` \r\n* `PartyIsTrustedByParty` \r\n* `PartyIsContactPointForParty` \r\n* `PartyReceivesBenefitsFromParty` \r\n* "
-          FromParty:
-              $ref: '#/components/schemas/Party'
-              description: ''
-          ToParty:
-              $ref: '#/components/schemas/Party'
-              description: ''
-          SupplementaryData:
+        type: array
+        items:
+          type: object
+          properties:
+            PartyReference:
+                $ref: '#/components/schemas/Party'
+                description: >-
+                  Party|Party
+                  (https://www.iso20022.org/standardsrepository/type/Party)|Standard|ISO20022BM
+                  ()
+            DirectoryEntryDateType:
+                enum:
+                    -  OpenDate
+                    -  RefreshDate
                 type: string
-                description: '|||'
+                description: ">\r\n* `OpenDate` \r\n* `RefreshDate` \r\n* "
+            DirectoryEntryDate:
+                $ref: '#/components/schemas/ISODateTime'
+                description: >-
+                  ISODateTime|ISODateTime
+                  (https://www.iso20022.org/standardsrepository/type/ISODateTime)|Standard|ISO20022
+                  BM ()
+            PartyType:
+                enum:
+                    -  Person
+                    -  Organisation
+                type: string
+                description: ">\r\n* `Person` \r\n* `Organisation` \r\n* "
+            PartyIdentificationType:
+                enum:
+                    -  Taxidentificationnumber
+                    -  Nationalregistrationnumber
+                    -  LEI(LegalEntityIdentifier)
+                    -  Alienregistrationnumber
+                    -  Passportnumber
+                    -  Corporateidentification
+                    -  Driverlicensenumber
+                    -  Socialsecuritynumber
+                    -  Identitycardnumber
+                    -  Concat
+                type: string
+                description: ">\r\n* `Taxidentificationnumber` \r\n* `Nationalregistrationnumber` \r\n* `LEILegalEntityIdentifier` \r\n* `Alienregistrationnumber` \r\n* `Passportnumber` \r\n* `Corporateidentification` \r\n* `Driverlicensenumber` \r\n* `Socialsecuritynumber` \r\n* `Identitycardnumber` \r\n* `Concat` \r\n* "
+            PartyIdentification:
+                $ref: '#/components/schemas/Identifier'
+                description: ''
+            Partyidentification:
+                type: string
+                description: ''
+                format: DataType
+            RelationshipType:
+                enum:
+                    -  PartyIsParentOfParty
+                    -  PartyIsSubsidiaryOfParty
+                    -  PartyIsCertifiedByParty
+                    -  PartyIsMarriedToParty
+                    -  PartyActsOnBehalfOfParty
+                    -  PartyIsPowerOfAttorneyParty
+                    -  PartyIsTrustedByParty
+                    -  PartyIsContactPointForParty
+                    -  PartyReceivesBenefitsFromParty
+                type: string
+                description: ">\r\n* `PartyIsParentOfParty` \r\n* `PartyIsSubsidiaryOfParty` \r\n* `PartyIsCertifiedByParty` \r\n* `PartyIsMarriedToParty` \r\n* `PartyActsOnBehalfOfParty` \r\n* `PartyIsPowerOfAttorneyParty` \r\n* `PartyIsTrustedByParty` \r\n* `PartyIsContactPointForParty` \r\n* `PartyReceivesBenefitsFromParty` \r\n* "
+            FromParty:
+                $ref: '#/components/schemas/Party'
+                description: ''
+            ToParty:
+                $ref: '#/components/schemas/Party'
+                description: ''
+            SupplementaryData:
+                  type: string
+                  description: '|||'
     RetrievePartyReferenceDataDirectoryEntry:
         type: object
         properties:
@@ -1373,7 +1375,7 @@ components:
           ResidencyStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           DateofBirth:
@@ -1597,7 +1599,7 @@ components:
           ResidencyStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           DateofBirth:
@@ -1756,7 +1758,7 @@ components:
           ResidencyStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           DateofBirth:
@@ -1888,7 +1890,7 @@ components:
           ResidencyStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
           DateofBirth:
@@ -2891,7 +2893,7 @@ components:
               format: ContactPoint
               description: >-
                 (DDD Entity) - Number, physical or virtual address, used for
-                communication. 
+                communication.
           Identification:
               type: string
               format: PartyIdentificationInformation
@@ -2901,26 +2903,26 @@ components:
               format: MoneyLaunderingCheckCode
               description: >-
                 (DDD Entity) - Status of an identity check to prevent money laundering.
-                This includes the counter-terrorism check. 
+                This includes the counter-terrorism check.
           TaxationConditions:
               type: string
               format: Tax
               description: >-
                 (DDD Entity) - Taxation parameters which apply to an individual person or
-                to an organisation. 
+                to an organisation.
           Domicile:
               type: string
               format: Location
               description: >-
                 (DDD Entity) - Location in which a person is permanently domiciled (the
-                place of a person's permanent home). 
+                place of a person's permanent home).
           Residence:
               type: string
               format: Location
               description: >-
                 (DDD Entity) - Location from which the affairs of a company are directed or
                 location in which a person resides (the place of a person's
-                home). 
+                home).
           PowerOfAttorney:
               type: string
               format: PowerOfAttorney
@@ -2965,7 +2967,7 @@ components:
         type: object
         description: >-
           (DDD Entity) - The associated account number in any suitable format (e.g. IBAN)
-          AccountIdentification |AccountIdentification 
+          AccountIdentification |AccountIdentification
           (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
           BM ()
         properties:
@@ -2982,7 +2984,7 @@ components:
                 the account of a customer. Further specifications of the format
                 and content of the IBAN can be found in the standard ISO 13616
                 "Banking and related financial services International Bank
-                Account Number (IBAN)" version 1997-10-01, or later revisions. 
+                Account Number (IBAN)" version 1997-10-01, or later revisions.
           BBAN:
               type: string
               format: BBANIdentifier
@@ -2990,7 +2992,7 @@ components:
                 (DDD Entity) - Basic Bank Account Number (BBAN) identifier used
                 nationally by financial institutions, ie, in individual
                 countries, generally as part of a National Account Numbering
-                Scheme(s), to uniquely identify the account of a customer. 
+                Scheme(s), to uniquely identify the account of a customer.
           UPIC:
               type: string
               format: UPICIdentifier
@@ -2999,20 +3001,20 @@ components:
                 used by the New York Clearing House to mask confidential data,
                 such as bank accounts and bank routing numbers. UPIC numbers
                 remain with business customers, regardless of banking
-                relationship changes. 
+                relationship changes.
           ProprietaryIdentification:
               type: string
               format: GenericIdentification
               description: >-
                 (DDD Entity) - Unique identifier for an account. It is assigned by the
-                account servicer using a proprietary identification scheme. 
+                account servicer using a proprietary identification scheme.
           Name:
               type: string
               format: Max70Text
               description: >-
                 (DDD Entity) - Name of the account. It provides an additional means of
                 identification, and is designated by the account servicer in
-                agreement with the account owner. 
+                agreement with the account owner.
           CostReferencePattern:
               type: string
               format: GenericIdentification
@@ -3020,7 +3022,7 @@ components:
                 (DDD Entity) - Template describing the mask of the structure for the format
                 of the accounting account identifier; for example "AABBBBCC"
                 where AA represents the country, BBBB the service
-                classification, CC the sales area. 
+                classification, CC the sales area.
           Number:
               type: string
               format: Max140Text
@@ -3041,7 +3043,7 @@ components:
               description: ">\r\n* `PostalAddress` \r\n* `GeolocationAddress` \r\n* `LatitudeAddress` \r\n* `LongitudeAddress` \r\n* `ElectronicAddress` \r\n* "
           AddressLine:
               type: string
-              description: >- 
+              description: >-
                 Information that locates and identifies a specific address, as by postal services, presented in free format text.
           StreetName:
               $ref: '#/components/schemas/Name'
@@ -3066,7 +3068,7 @@ components:
                   -  City
                   -  Region
               type: string
-              description: >- 
+              description: >-
                 Identifies a subdivision of a country such as state, region, county.
           Country:
               type: string
@@ -3120,7 +3122,7 @@ components:
     PartyIdentificationInformation:
         type: object
         description: >-
-          (DDD Entity) - 
+          (DDD Entity) -
           PartyIdentificationInformation/TypeOfIdentification|PartyIdentificationInformation/TypeOfIdentification
           (https://www.iso20022.org/standardsrepository/type/PartyIdentificationInformation)|Standard|ISO20022
           BM ()
@@ -3130,7 +3132,7 @@ components:
               format: GenericIdentification
               description: >-
                 (DDD Entity) - Identifier issued to a party for which no specific
-                identifier has been defined. 
+                identifier has been defined.
           IdentifiedParty:
               type: string
               format: Party
@@ -3144,13 +3146,13 @@ components:
               format: Max35Text
               description: >-
                 (DDD Entity) - Number assigned by a national registration authority to an
-                entity. In Singapore this is known as the NRIC. 
+                entity. In Singapore this is known as the NRIC.
           TypeOfIdentification:
               type: string
               format: TypeOfIdentificationCode
               description: >-
                 (DDD Entity) - Specifies the type of alternate identification which can be
-                used to identify a party. 
+                used to identify a party.
           Declaration:
               type: string
               format: Max350Text
@@ -3164,13 +3166,13 @@ components:
               format: PartyName
               description: >-
                 (DDD Entity) - Name by which a party is known and which is usually used to
-                identify that party. 
+                identify that party.
           ValidityPeriod:
               type: string
               format: DateTimePeriod
               description: >-
                 (DDD Entity) - Specifies the period during which an identification is
-                valid 
+                valid
           IdentifiedMarket:
               type: string
               format: Market
@@ -3189,11 +3191,11 @@ components:
               description: >-
                 (DDD Entity) - An identifier for the Legal Entity in a business registry in
                 the jurisdiction of legal registration, or in the appropriate
-                registration authority. 
+                registration authority.
     Status:
         type: object
         description: >-
-          (DDD Entity) -  Status |Status 
+          (DDD Entity) -  Status |Status
           (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
           BM ()
         properties:
@@ -3222,7 +3224,7 @@ components:
               format: InvestigationPartyRole
               description: >-
                 (DDD Entity) - Role played by a party in the context of assigning a
-                status. 
+                status.
           SettlementStatus:
               type: string
               format: SecuritiesSettlementStatusCode
@@ -3236,7 +3238,7 @@ components:
               format: InstructionProcessingStatusCode
               description: >-
                 (DDD Entity) - Status of processing of a transaction at account servicer
-                level. 
+                level.
           ModificationProcessingStatus:
               type: string
               format: ModificationProcessingStatusCode
@@ -3269,13 +3271,13 @@ components:
               format: SafekeepingPlace
               description: >-
                 (DDD Entity) - Specifies the safekeeping places located in a specific
-                country. 
+                country.
           CountryForBeneficialOwner:
               type: string
               format: BeneficialOwner
               description: >-
                 (DDD Entity) - Specifies the beneficial owner which has certified that it
-                is not domiciled in the country. 
+                is not domiciled in the country.
           ProducedProducts:
               type: string
               format: Product
@@ -3293,19 +3295,19 @@ components:
               format: Max35Text
               description: >-
                 (DDD Entity) - Name by which a country is known. It is normally the name
-                attached to the ISO country code. 
+                attached to the ISO country code.
           PostalAddressSpecification:
               type: string
               format: PostalAddress
               description: >-
                 (DDD Entity) - Specifies the representation of a postal address per
-                country. 
+                country.
           CountryRelatedInvestmentFundProcessing:
               type: string
               format: InvestmentFundClassProcessingCharacteristics
               description: >-
                 (DDD Entity) - Specifies the other parameters of the investment fund class
-                which apply in that country. 
+                which apply in that country.
           Market:
               type: string
               format: Market
@@ -3321,7 +3323,7 @@ components:
                 (DDD Entity) - Unit resulting from the division of a country, dependency,
                 or other area of special geopolitical interest contained in ISO
                 3166-1, on the basis of country names obtained from the United
-                Nations (ISO 3166-2: Country subdivision code). 
+                Nations (ISO 3166-2: Country subdivision code).
     PostalAddress:
         type: object
         description: >-
@@ -3342,20 +3344,20 @@ components:
               format: Max35Text
               description: >-
                 (DDD Entity) - Number that identifies the position of a building on a
-                street. 
+                street.
           PostCodeIdentification:
               type: string
               format: Max16Text
               description: >-
                 (DDD Entity) - Identifier consisting of a group of letters and/or numbers
                 that is added to a postal address to assist the sorting of
-                mail. 
+                mail.
           TownName:
               type: string
               format: Max35Text
               description: >-
                 (DDD Entity) - Name of a built-up area, with defined boundaries, and a
-                local government. 
+                local government.
           BuildingName:
               type: string
               format: Max35Text
@@ -3369,19 +3371,19 @@ components:
               format: Max16Text
               description: >-
                 (DDD Entity) - Numbered box in a post office, assigned to a person or
-                organisation, where letters are kept until called for. 
+                organisation, where letters are kept until called for.
           Department:
               type: string
               format: Max70Text
               description: >-
                 (DDD Entity) - Identification of a division of a large organisation or
-                building. 
+                building.
           SubDepartment:
               type: string
               format: Max70Text
               description: >-
                 (DDD Entity) - Identification of a sub-division of a large organisation or
-                building. 
+                building.
           Location:
               type: string
               format: Location
@@ -3391,7 +3393,7 @@ components:
               format: ChequeIssue
               description: >-
                 (DDD Entity) - Cheque issue information for which a delivery address is
-                specified. 
+                specified.
           Country:
               type: string
               format: Country
@@ -3401,7 +3403,7 @@ components:
               format: DateTimePeriod
               description: >-
                 (DDD Entity) - Specifies the period during which a postal address is
-                valid. 
+                valid.
           SuiteIdentification:
               type: string
               format: Max35Text
@@ -3411,13 +3413,13 @@ components:
               format: Max35Text
               description: >-
                 (DDD Entity) - Identification of a building, within a group of buildings,
-                that have the same street number identifier. 
+                that have the same street number identifier.
           MailDeliverySubLocation:
               type: string
               format: Max35Text
               description: >-
                 (DDD Entity) - Specific place to deliver mail within a pre-defined postal
-                address. 
+                address.
           Block:
               type: string
               format: Max35Text
@@ -3459,7 +3461,7 @@ components:
               format: CorporateActionEvent
               description: >-
                 (DDD Entity) - Corporate action event for which the documentation location
-                is specified. 
+                is specified.
           RelatedReportingService:
               type: string
               format: ReportingService
@@ -3477,7 +3479,7 @@ components:
               format: ProxyAppointmentCondition
               description: >-
                 (DDD Entity) - Proxy appointment process for which a notification address
-                is specified. 
+                is specified.
           ContactPointForMeeting:
               type: string
               format: Meeting
@@ -3497,7 +3499,7 @@ components:
                 (DDD Entity) - Physical/logical address, segregated from the main address
                 that is used for normal operations. The return address is used
                 to route messages that require specific attention/exception
-                handling, eg, returns or rejects. 
+                handling, eg, returns or rejects.
           RelatedPayment:
               type: string
               format: PaymentProcessing
@@ -3515,7 +3517,7 @@ components:
               format: InvestmentFundClassProcessingCharacteristics
               description: >-
                 (DDD Entity) - Processing characteristics of an investment fund class for
-                which a local market annex is specified. 
+                which a local market annex is specified.
     DateTimePeriod:
         type: object
         description: >-
@@ -3540,7 +3542,7 @@ components:
               format: PaymentInstruction
               description: >-
                 (DDD Entity) - Payment instruction for which a processing validity time is
-                specified. 
+                specified.
           NumberOfDays:
               type: string
               format: Number
@@ -3550,13 +3552,13 @@ components:
               format: ValuationStatistics
               description: >-
                 (DDD Entity) - Valuation statistics for which a reference period is
-                specified. 
+                specified.
           PerformanceFactors:
               type: string
               format: PerformanceFactors
               description: >-
                 (DDD Entity) - Performance factors for which an accumulation period is
-                specified. 
+                specified.
           Status:
               type: string
               format: Status
@@ -3566,43 +3568,43 @@ components:
               format: SecuritiesPricing
               description: >-
                 (DDD Entity) - Securities pricing for which a price calculation period is
-                specified. 
+                specified.
           CorporateActionOption:
               type: string
               format: CorporateActionOption
               description: >-
                 (DDD Entity) - Corporate action option for which an action period is
-                defined. 
+                defined.
           ParallelTradingProceedsDefinition:
               type: string
               format: SecuritiesProceedsDefinition
               description: >-
                 (DDD Entity) - Securities proceeds for which a parallel trading period is
-                specified. 
+                specified.
           PrivilegeSuspensionCorporateAction:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a privilege suspension period has
-                been defined. 
+                been defined.
           WithdrawalSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals is specified. 
+                withdrawals is specified.
           RelatedInterestCalculation:
               type: string
               format: InterestCalculation
               description: >-
                 (DDD Entity) - Interest calculation process for which an interest period is
-                specified. 
+                specified.
           BiddingConditions:
               type: string
               format: BiddingConditions
               description: >-
                 (DDD Entity) - Bidding conditions for which a compulsory purchase period is
-                specified. 
+                specified.
           ClassAction:
               type: string
               format: ClassAction
@@ -3612,61 +3614,61 @@ components:
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for book entry
-                transfers is specified. 
+                transfers is specified.
           DepositAtAgentSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for deposits
-                at agent is specified. 
+                at agent is specified.
           DepositSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for deposits
-                is specified. 
+                is specified.
           PledgeSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for pledges is
-                specified. 
+                specified.
           SegregationPeriodRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                segregation is specified. 
+                segregation is specified.
           WithdrawalAtAgentSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals at agent is specified. 
+                withdrawals at agent is specified.
           WithdrawalInNomineeNameSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals in nominee name is specified. 
+                withdrawals in nominee name is specified.
           WithdrawalInStreetNameSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals in street name is specified. 
+                withdrawals in street name is specified.
           BookClosureCorporateAction:
               type: string
               format: CorporateActionEvent
               description: >-
                 (DDD Entity) - Corporate action for which a book closure period has been
-                specified. 
+                specified.
           CoDepositoriesSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                co-depositories is specified. 
+                co-depositories is specified.
           ExtendiblePeriodDebt:
               type: string
               format: Debt
@@ -3676,7 +3678,7 @@ components:
               format: SecuritiesConversion
               description: >-
                 (DDD Entity) - Securities conversion process for which a conversion period
-                is specified. 
+                is specified.
           YieldCalculation:
               type: string
               format: YieldCalculation
@@ -3702,19 +3704,19 @@ components:
               format: SecuritiesProceedsDefinition
               description: >-
                 (DDD Entity) - Securities proceeds for which an assented line period is
-                specified. 
+                specified.
           SellThruIssuerProceedsDefinition:
               type: string
               format: SecuritiesProceedsDefinition
               description: >-
                 (DDD Entity) - Securities proceeds for which a sell thru issuer period is
-                specified. 
+                specified.
           RelatedProductDelivery:
               type: string
               format: ProductDelivery
               description: >-
                 (DDD Entity) - Trade delivery process for which a delivery period is
-                specified. 
+                specified.
           RelatedInvoice:
               type: string
               format: Invoice
@@ -3724,13 +3726,13 @@ components:
               format: TradeCertificate
               description: >-
                 (DDD Entity) - Trade certificate for which an inspection date is
-                specified. 
+                specified.
           RelatedPortfolioValuation:
               type: string
               format: PortfolioValuation
               description: >-
                 (DDD Entity) - Portfolio valuation process for which a valuation period is
-                specified. 
+                specified.
           System:
               type: string
               format: System
@@ -3740,7 +3742,7 @@ components:
               format: AccountRestriction
               description: >-
                 (DDD Entity) - Account restriction for which a validity period is
-                specified. 
+                specified.
           BankOperation:
               type: string
               format: BankOperation
@@ -3750,7 +3752,7 @@ components:
               format: CorporateActionEvent
               description: >-
                 (DDD Entity) - Corporate action event for which a trading period is
-                specified. 
+                specified.
           RelatedLimit:
               type: string
               format: Limit
@@ -3760,7 +3762,7 @@ components:
               format: PartyIdentificationInformation
               description: >-
                 (DDD Entity) - Party identification for which a validity period is
-                specified. 
+                specified.
           AssessmentValidityScheme:
               type: string
               format: Scheme
@@ -3770,25 +3772,25 @@ components:
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which an
-                exercise period is specified. 
+                exercise period is specified.
           OfferPeriodDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which an
-                offer period is specified. 
+                offer period is specified.
           TradingPeriodDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which a
-                trading period is specified. 
+                trading period is specified.
           BlockingPeriodDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which a
-                blocking period is specified. 
+                blocking period is specified.
           Guarantee:
               type: string
               format: Guarantee
@@ -3798,19 +3800,19 @@ components:
               format: SecuritiesPricing
               description: >-
                 (DDD Entity) - Securities pricing for which a price fact period is
-                specified. 
+                specified.
           CashDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash distribution for which an interest period is
-                specified. 
+                specified.
           ComponentSecurity:
               type: string
               format: ComponentSecurity
               description: >-
                 (DDD Entity) - Security component for which a separation period is
-                specified. 
+                specified.
           TradingSession:
               type: string
               format: TradingSession
@@ -3832,7 +3834,7 @@ components:
               format: AccountLink
               description: >-
                 (DDD Entity) - Link between two accounts for which a validity period is
-                specified. 
+                specified.
           RelatedAdjustment:
               type: string
               format: Adjustment
@@ -3842,7 +3844,7 @@ components:
               format: SecuritiesIdentification
               description: >-
                 (DDD Entity) - Securities identification for which a validity period is
-                specified. 
+                specified.
           RelatedStandingSettlementInstruction:
               type: string
               format: StandingSettlementInstruction
@@ -3852,7 +3854,7 @@ components:
               format: BasicSecuritiesRegistration
               description: >-
                 (DDD Entity) - Securities registration process for which a split period is
-                specified. 
+                specified.
           Amount:
               type: string
               format: AmountAndPeriod
@@ -3882,7 +3884,7 @@ components:
               format: SystemAvailability
               description: >-
                 (DDD Entity) - System availability for which the closure period is
-                provided. 
+                provided.
   responses:
     RegisterPartyReferenceDataDirectoryEntryResponse:
         description: PartyReferenceDataDirectoryEntryRegister
