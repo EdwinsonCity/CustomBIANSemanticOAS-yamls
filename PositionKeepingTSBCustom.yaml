@@ -2923,6 +2923,61 @@ components:
           CardInstrument:
               $ref: '#/components/schemas/CardInstrument'
               description: '|||'
+          Accountbalance:
+              $ref: '#/components/schemas/Accountbalance'
+              description: '|||'
+    Accountbalance:
+        type: object
+        description: >-
+          (DDD Entity) - The state of the obligations managed on the account, the result of
+          all entries on the account.
+
+
+          Numerical representation of the net increases and decreases in an
+          account at a specific point in time. (ISO20022)
+
+
+          Banking: Amount available in an account for withdrawal or use.
+
+          Read more: http://www.businessdictionary.com/definition/balance.html
+
+
+          Bookkeeping: Difference between the debit and credit sides of an
+          account.
+
+          Read more: http://www.businessdictionary.com/definition/balance.html
+        properties:
+          BalanceAmount:
+              $ref: '#/components/schemas/CurrencyAndAmount'
+              description: >-
+                CurrencyAndAmount|CurrencyAndAmount
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                ()
+          BalanceType:
+              enum:
+                  -  Openingbalance
+                  -  Closingbalance
+                  -  Currentbalance
+                  -  Availablebalance
+                  -  Ledgerbalance
+                  -  Reservebalance
+                  -  Freebalance
+                  -  Principalbalance
+              type: string
+              description: ">\r\n* `Openingbalance` \r\n* `Closingbalance` \r\n* `Currentbalance` \r\n* `Availablebalance` \r\n* `Ledgerbalance` \r\n* `Reservebalance` \r\n* `Freebalance` \r\n* `Principalbalance` \r\n* "
+          BalanceDate:
+              $ref: '#/components/schemas/ISODateTime'
+              description: ''
+          BalanceIndicator:
+              enum:
+                  -  Debit
+                  -  Credit
+              type: string
+              description: ">\r\n* `Debit` \r\n* `Credit` \r\n* "
+          Accountbalance:
+              type: string
+              description: ''
+              format: DataType
     CardInstrument:
       type: object
       required:

@@ -14888,7 +14888,7 @@ components:
               type: string
               description: ">\r\n* `Openingbalance` \r\n* `Closingbalance` \r\n* `Currentbalance` \r\n* `Availablebalance` \r\n* `Ledgerbalance` \r\n* `Reservebalance` \r\n* `Freebalance` \r\n* `Principalbalance` \r\n* "
           BalanceDate:
-              $ref: '#/components/schemas/Datetime'
+              $ref: '#/components/schemas/ISODateTime'
               description: ''
           BalanceIndicator:
               enum:

@@ -829,7 +829,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -912,7 +912,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -923,7 +923,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -1258,7 +1258,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -1341,7 +1341,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -1352,7 +1352,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -1446,7 +1446,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -1529,7 +1529,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -1540,7 +1540,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -1634,7 +1634,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -1717,7 +1717,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -1728,7 +1728,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -1822,7 +1822,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -1905,7 +1905,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -1916,7 +1916,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -2010,7 +2010,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -2093,7 +2093,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -2104,7 +2104,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -2198,7 +2198,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -2281,7 +2281,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -2292,7 +2292,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -2386,7 +2386,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -2469,7 +2469,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -2480,7 +2480,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -2574,7 +2574,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -2657,7 +2657,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -2668,7 +2668,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -2762,7 +2762,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -2845,7 +2845,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -2856,7 +2856,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -2950,7 +2950,7 @@ components:
           CurrentAccountNumber:
             $ref: '#/components/schemas/AccountIdentification'
             description: >-
-              AccountIdentification |AccountIdentification 
+              AccountIdentification |AccountIdentification
               (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
               BM ()
           Accountidentification:
@@ -3025,7 +3025,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -3036,7 +3036,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -3136,7 +3136,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -3219,7 +3219,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -3230,7 +3230,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -3328,7 +3328,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestType:
               enum:
@@ -3376,7 +3376,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestAccrualType:
               enum:
@@ -3465,7 +3465,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestType:
               enum:
@@ -3513,7 +3513,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestAccrualType:
               enum:
@@ -3590,7 +3590,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -3673,7 +3673,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -3684,7 +3684,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -3775,7 +3775,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -3915,7 +3915,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -3945,19 +3945,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     ServiceModality:
         type: object
@@ -3980,7 +3980,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -4120,7 +4120,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -4150,19 +4150,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     InitiateServiceFee:
         type: object
@@ -4173,7 +4173,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -4256,7 +4256,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -4267,7 +4267,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -4358,7 +4358,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -4498,7 +4498,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -4528,19 +4528,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     ExecuteServiceFeeResponse:
         type: object
@@ -4548,7 +4548,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -4688,7 +4688,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -4718,19 +4718,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     ExecuteServiceFee:
         type: object
@@ -4741,7 +4741,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -4824,7 +4824,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -4835,7 +4835,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -4926,7 +4926,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -5066,7 +5066,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -5096,19 +5096,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     RetrieveServiceFeeResponse:
         type: object
@@ -5116,7 +5116,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -5256,7 +5256,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -5286,19 +5286,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     RetrieveServiceFee:
         type: object
@@ -5309,7 +5309,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -5392,7 +5392,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -5403,7 +5403,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -5513,7 +5513,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -5530,7 +5530,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     LienArrangementModality:
@@ -5699,7 +5699,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -5716,7 +5716,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     InitiateAccountLien:
@@ -5728,7 +5728,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -5811,7 +5811,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -5822,7 +5822,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -5932,7 +5932,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -5949,7 +5949,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     UpdateAccountLienResponse:
@@ -5977,7 +5977,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -5994,7 +5994,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     UpdateAccountLien:
@@ -6006,7 +6006,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -6089,7 +6089,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -6100,7 +6100,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -6210,7 +6210,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -6227,7 +6227,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     ExchangeAccountLienResponse:
@@ -6255,7 +6255,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -6272,7 +6272,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     ExchangeAccountLien:
@@ -6284,7 +6284,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -6367,7 +6367,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -6378,7 +6378,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -6488,7 +6488,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -6505,7 +6505,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     RetrieveAccountLienResponse:
@@ -6533,7 +6533,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           LienStartDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -6550,7 +6550,7 @@ components:
           LienStatus:
               $ref: '#/components/schemas/Status'
               description: >-
-                Status |Status 
+                Status |Status
                 (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
                 BM ()
     RetrieveAccountLien:
@@ -6562,7 +6562,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -6645,7 +6645,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -6656,7 +6656,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -6778,7 +6778,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -6880,7 +6880,7 @@ components:
         type: object
         description: >-
           (DDD Entity) - A characteristic of account which refers to LifecycleDate of
-          account (e.g., ClosingDate, OpeningDate, LiveDate, etc.) 
+          account (e.g., ClosingDate, OpeningDate, LiveDate, etc.)
         properties:
           AccountDateType:
               enum:
@@ -6902,7 +6902,7 @@ components:
         type: object
         description: >-
           (DDD Entity) - Specifies the category of account like payment account, loan
-          account, cash account, securities account, etc. 
+          account, cash account, securities account, etc.
         properties:
           AccountType:
               enum:
@@ -6962,7 +6962,7 @@ components:
               type: string
               description: ">\r\n* `Openingbalance` \r\n* `Closingbalance` \r\n* `Currentbalance` \r\n* `Availablebalance` \r\n* `Ledgerbalance` \r\n* `Reservebalance` \r\n* `Freebalance` \r\n* `Principalbalance` \r\n* "
           BalanceDate:
-              $ref: '#/components/schemas/Datetime'
+              $ref: '#/components/schemas/ISODateTime'
               description: ''
           BalanceIndicator:
               enum:
@@ -7091,7 +7091,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7108,7 +7108,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -7191,7 +7191,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -7202,7 +7202,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -7324,7 +7324,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7369,7 +7369,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7386,7 +7386,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -7469,7 +7469,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -7480,7 +7480,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -7602,7 +7602,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7647,7 +7647,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7664,7 +7664,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -7747,7 +7747,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -7758,7 +7758,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -7880,7 +7880,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7925,7 +7925,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AccountSweepExecutionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -7942,7 +7942,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -8025,7 +8025,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -8036,7 +8036,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -8171,7 +8171,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8202,7 +8202,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8260,7 +8260,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8291,7 +8291,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8308,7 +8308,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -8391,7 +8391,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -8402,7 +8402,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -8537,7 +8537,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8568,7 +8568,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8626,7 +8626,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8657,7 +8657,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8674,7 +8674,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -8757,7 +8757,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -8768,7 +8768,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -8903,7 +8903,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8934,7 +8934,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -8992,7 +8992,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -9023,7 +9023,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -9040,7 +9040,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -9123,7 +9123,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -9134,7 +9134,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -9269,7 +9269,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -9300,7 +9300,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -9358,7 +9358,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           DepositTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -9389,7 +9389,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           WithdrawalTransactionDate:
               $ref: '#/components/schemas/ISODate'
@@ -9406,7 +9406,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -9489,7 +9489,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -9500,7 +9500,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -9824,7 +9824,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -9834,7 +9834,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -9888,7 +9888,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -10317,7 +10317,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -10327,7 +10327,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -10381,7 +10381,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -10534,7 +10534,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -10617,7 +10617,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -10628,7 +10628,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -10952,7 +10952,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -10962,7 +10962,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -11016,7 +11016,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -11399,7 +11399,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -11409,7 +11409,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -11463,7 +11463,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -11616,7 +11616,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -11699,7 +11699,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -11710,7 +11710,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -12034,7 +12034,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -12044,7 +12044,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -12098,7 +12098,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -12481,7 +12481,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -12491,7 +12491,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -12545,7 +12545,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -12698,7 +12698,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -12781,7 +12781,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -12792,7 +12792,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -13116,7 +13116,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -13126,7 +13126,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -13180,7 +13180,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -13563,7 +13563,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -13573,7 +13573,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -13627,7 +13627,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -13780,7 +13780,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -13863,7 +13863,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -13874,7 +13874,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -14198,7 +14198,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -14208,7 +14208,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -14262,7 +14262,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -14645,7 +14645,7 @@ components:
           PaymentTransactionPayeeAccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PaymentTransactionPayeeBankReference:
@@ -14655,7 +14655,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionFeeType:
               enum:
@@ -14709,7 +14709,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           PaymentTransactionDate:
               $ref: '#/components/schemas/ISODateTime'
@@ -14862,7 +14862,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -14945,7 +14945,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -14956,7 +14956,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -15047,7 +15047,7 @@ components:
           AccountIdentifier:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           AccountExternalAccountNumber:
@@ -15264,7 +15264,7 @@ components:
           AccountIdentifier:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           AccountExternalAccountNumber:
@@ -15380,7 +15380,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -15463,7 +15463,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -15474,7 +15474,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -15565,7 +15565,7 @@ components:
           AccountIdentifier:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           AccountExternalAccountNumber:
@@ -15678,7 +15678,7 @@ components:
           AccountIdentifier:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           AccountExternalAccountNumber:
@@ -15794,7 +15794,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -15877,7 +15877,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -15888,7 +15888,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -15979,7 +15979,7 @@ components:
           AccountIdentifier:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           AccountExternalAccountNumber:
@@ -16092,7 +16092,7 @@ components:
           AccountIdentifier:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           AccountExternalAccountNumber:
@@ -16208,7 +16208,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -16291,7 +16291,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -16302,7 +16302,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -16400,7 +16400,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestType:
               enum:
@@ -16448,7 +16448,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestAccrualType:
               enum:
@@ -16529,7 +16529,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestType:
               enum:
@@ -16577,7 +16577,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           InterestAccrualType:
               enum:
@@ -16654,7 +16654,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -16737,7 +16737,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -16748,7 +16748,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -16839,7 +16839,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -16979,7 +16979,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -17009,19 +17009,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     UpdateServiceFeeResponse:
         type: object
@@ -17029,7 +17029,7 @@ components:
           FeeCreditAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           FeeRate:
@@ -17169,7 +17169,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeApplicationFrequency:
               enum:
@@ -17199,19 +17199,19 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           FeeDebitAccount:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           AccrualFeeAmount:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
     UpdateServiceFee:
         type: object
@@ -17222,7 +17222,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -17305,7 +17305,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -17316,7 +17316,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -17429,7 +17429,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AuthorizationRejectionReason:
               $ref: '#/components/schemas/Text'
@@ -17437,7 +17437,7 @@ components:
           AccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           BookingDate:
@@ -17474,7 +17474,7 @@ components:
               $ref: '#/components/schemas/CurrencyAndAmount'
               description: >-
                 CurrencyAndAmount|CurrencyAndAmount
-                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022 
+                (https://www.iso20022.org/standardsrepository/type/CurrencyAndAmount)|Standard|ISO20022
                 ()
           AuthorizationRejectionReason:
               $ref: '#/components/schemas/Text'
@@ -17482,7 +17482,7 @@ components:
           AccountReference:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           BookingDate:
@@ -17500,7 +17500,7 @@ components:
           CurrentAccountNumber:
               $ref: '#/components/schemas/AccountIdentification'
               description: >-
-                AccountIdentification |AccountIdentification 
+                AccountIdentification |AccountIdentification
                 (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
                 BM ()
           CustomerReference:
@@ -17583,7 +17583,7 @@ components:
           LinkedAccounts:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           LinkType:
@@ -17594,7 +17594,7 @@ components:
           AccountDetails:
               $ref: '#/components/schemas/Account'
               description: >-
-                Account|Account 
+                Account|Account
                 (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
                 BM ()
           PositionLimits:
@@ -17696,7 +17696,7 @@ components:
         type: object
         description: >-
           (DDD Entity) - The associated account number in any suitable format (e.g. IBAN)
-          AccountIdentification |AccountIdentification 
+          AccountIdentification |AccountIdentification
           (https://www.iso20022.org/standardsrepository/type/AccountIdentification)|Standard|ISO20022
           BM ()
         properties:
@@ -17713,7 +17713,7 @@ components:
                 the account of a customer. Further specifications of the format
                 and content of the IBAN can be found in the standard ISO 13616
                 "Banking and related financial services International Bank
-                Account Number (IBAN)" version 1997-10-01, or later revisions. 
+                Account Number (IBAN)" version 1997-10-01, or later revisions.
           BBAN:
               type: string
               format: BBANIdentifier
@@ -17721,7 +17721,7 @@ components:
                 (DDD Entity) - Basic Bank Account Number (BBAN) identifier used
                 nationally by financial institutions, ie, in individual
                 countries, generally as part of a National Account Numbering
-                Scheme(s), to uniquely identify the account of a customer. 
+                Scheme(s), to uniquely identify the account of a customer.
           UPIC:
               type: string
               format: UPICIdentifier
@@ -17730,20 +17730,20 @@ components:
                 used by the New York Clearing House to mask confidential data,
                 such as bank accounts and bank routing numbers. UPIC numbers
                 remain with business customers, regardless of banking
-                relationship changes. 
+                relationship changes.
           ProprietaryIdentification:
               type: string
               format: GenericIdentification
               description: >-
                 (DDD Entity) - Unique identifier for an account. It is assigned by the
-                account servicer using a proprietary identification scheme. 
+                account servicer using a proprietary identification scheme.
           Name:
               type: string
               format: Max70Text
               description: >-
                 (DDD Entity) - Name of the account. It provides an additional means of
                 identification, and is designated by the account servicer in
-                agreement with the account owner. 
+                agreement with the account owner.
           CostReferencePattern:
               type: string
               format: GenericIdentification
@@ -17751,13 +17751,13 @@ components:
                 (DDD Entity) - Template describing the mask of the structure for the format
                 of the accounting account identifier; for example "AABBBBCC"
                 where AA represents the country, BBBB the service
-                classification, CC the sales area. 
+                classification, CC the sales area.
           Number:
               type: string
               format: Max140Text
               description: >-
                 (DDD Entity) - String of characters (mainly numbers) used to identify an
-                account. 
+                account.
     CurrencyCode:
         type: string
         format: ''
@@ -17782,19 +17782,19 @@ components:
               description: >-
                 (DDD Entity) - Name or number assigned by an entity to enable recognition
                 of that entity, for example account identifier, identification
-                assigned by a provider to identify its customers. 
+                assigned by a provider to identify its customers.
           IdentificationForContactPoint:
               type: string
               format: ContactPoint
               description: >-
                 (DDD Entity) - Contact point which uses a generic identification as
-                identification. 
+                identification.
           IdentificationForAccount:
               type: string
               format: AccountIdentification
               description: >-
                 (DDD Entity) - Account Identification which uses a generic identification
-                as proprietary identification. 
+                as proprietary identification.
           RelatedPartyIdentification:
               type: string
               format: PartyIdentificationInformation
@@ -17812,19 +17812,19 @@ components:
               format: Scheme
               description: >-
                 (DDD Entity) - Information regarding an enumerated code list and its
-                owner. 
+                owner.
           IdentificationForSecuritiesCertificate:
               type: string
               format: SecuritiesCertificate
               description: >-
                 (DDD Entity) - Securities certificate which uses a generic identification
-                as certificate number. 
+                as certificate number.
           IdentificationForLot:
               type: string
               format: LotBreakdown
               description: >-
                 (DDD Entity) - Lot breakdown which uses a generic identification as lot
-                number. 
+                number.
           PartyRole:
               type: string
               format: InformationPartyRole
@@ -17834,25 +17834,25 @@ components:
               format: CashProceedsDefinition
               description: >-
                 (DDD Entity) - Cash proceeds definition which uses a generic identification
-                as type of income. 
+                as type of income.
           RelatedStatusReason:
               type: string
               format: StatusReason
               description: >-
                 (DDD Entity) - Specifies the status reason for which a data source scheme
-                is specified. 
+                is specified.
           IdentificationForBankTransaction:
               type: string
               format: BankTransaction
               description: >-
                 (DDD Entity) - Bank transaction which uses a generic identification as
-                proprietary identification. 
+                proprietary identification.
           IdentificationForAccountCostReferencePattern:
               type: string
               format: AccountIdentification
               description: >-
                 (DDD Entity) - Account identification for which a cost reference pattern is
-                provided. 
+                provided.
           Account:
               type: string
               format: Account
@@ -17874,7 +17874,7 @@ components:
               format: InvestmentFundClass
               description: >-
                 (DDD Entity) - Investment fund class which uses a generic identification as
-                fund classification. 
+                fund classification.
           IdentifiedLocation:
               type: string
               format: Location
@@ -17884,7 +17884,7 @@ components:
               format: SecuritiesIdentification
               description: >-
                 (DDD Entity) - Securities identification for which generic identification
-                elements and scheme are provided. 
+                elements and scheme are provided.
           IdentifiedDocument:
               type: string
               format: Document
@@ -17898,7 +17898,7 @@ components:
               format: RegisteredContract
               description: >-
                 (DDD Entity) - Related certificate against which all transactions in the
-                scope of the regulatory requirements are registered. 
+                scope of the regulatory requirements are registered.
     AccountRestriction:
         type: object
         description: >-
@@ -17946,7 +17946,7 @@ components:
               format: ContactPoint
               description: >-
                 (DDD Entity) - Number, physical or virtual address, used for
-                communication. 
+                communication.
           Identification:
               type: string
               format: PartyIdentificationInformation
@@ -17956,26 +17956,26 @@ components:
               format: MoneyLaunderingCheckCode
               description: >-
                 (DDD Entity) - Status of an identity check to prevent money laundering.
-                This includes the counter-terrorism check. 
+                This includes the counter-terrorism check.
           TaxationConditions:
               type: string
               format: Tax
               description: >-
                 (DDD Entity) - Taxation parameters which apply to an individual person or
-                to an organisation. 
+                to an organisation.
           Domicile:
               type: string
               format: Location
               description: >-
                 (DDD Entity) - Location in which a person is permanently domiciled (the
-                place of a person's permanent home). 
+                place of a person's permanent home).
           Residence:
               type: string
               format: Location
               description: >-
                 (DDD Entity) - Location from which the affairs of a company are directed or
                 location in which a person resides (the place of a person's
-                home). 
+                home).
           PowerOfAttorney:
               type: string
               format: PowerOfAttorney
@@ -18010,7 +18010,7 @@ components:
     Account:
         type: object
         description: >-
-          (DDD Entity) - Details of the linked account Account|Account 
+          (DDD Entity) - Details of the linked account Account|Account
           (https://www.iso20022.org/standardsrepository/type/Account)|Standard|ISO20022
           BM ()
         properties:
@@ -18023,7 +18023,7 @@ components:
               format: AccountIdentification
               description: >-
                 (DDD Entity) - Unique and unambiguous identification for the account
-                between the account owner and the account servicer. 
+                between the account owner and the account servicer.
           ParentAccount:
               type: string
               format: Account
@@ -18033,19 +18033,19 @@ components:
               format: Account
               description: >-
                 (DDD Entity) - Subdivision of an account used to segregate specific
-                holdings. 
+                holdings.
           RelatedFundProcessingCharacteristics:
               type: string
               format: InvestmentFundClassProcessingCharacteristics
               description: >-
                 (DDD Entity) - Fund processing characteristics for which a settlement
-                account is specified. 
+                account is specified.
           Status:
               type: string
               format: AccountStatus
               description: >-
                 (DDD Entity) - Specifies the current state of an account, eg, enabled or
-                deleted. 
+                deleted.
           Language:
               type: string
               format: LanguageCode
@@ -18055,19 +18055,19 @@ components:
               format: AccountPartyRole
               description: >-
                 (DDD Entity) - Specifies each role linked to an account and played by a
-                party in that context. 
+                party in that context.
           TradePartyRole:
               type: string
               format: TradePartyRole
               description: >-
                 (DDD Entity) - Party for which an account is specified in the context of a
-                trade. 
+                trade.
           ReportingCurrency:
               type: string
               format: CurrencyCode
               description: >-
                 (DDD Entity) - Currency used to calculate and report the balance and
-                related entries of an account. 
+                related entries of an account.
           AccountRestriction:
               type: string
               format: AccountRestriction
@@ -18077,7 +18077,7 @@ components:
               format: SettlementPartyRole
               description: >-
                 (DDD Entity) - Specifies the role of the party which uses the account for
-                settlement. 
+                settlement.
           Purpose:
               type: string
               format: Max140Text
@@ -18087,7 +18087,7 @@ components:
               format: ISODateTime
               description: >-
                 (DDD Entity) - Date on which the account and related services cease
-                effectively to be operational for the account owner. 
+                effectively to be operational for the account owner.
           LiveDate:
               type: string
               format: ISODateTime
@@ -18097,7 +18097,7 @@ components:
               format: DateTimePeriod
               description: >-
                 (DDD Entity) - Specifies the period for which the movements in the account
-                are reported. 
+                are reported.
           InvestmentFundPartyRole:
               type: string
               format: InvestmentFundPartyRole
@@ -18107,7 +18107,7 @@ components:
               format: Collateral
               description: >-
                 (DDD Entity) - Collateral data for which a collateral account is
-                specified. 
+                specified.
           Type:
               type: string
               format: GenericIdentification
@@ -18117,19 +18117,19 @@ components:
               format: CorporateActionProceedsDeliveryInstruction
               description: >-
                 (DDD Entity) - Proceeds delivery instruction which contain account
-                identification. 
+                identification.
           RelatedCorporateActionPartyRole:
               type: string
               format: CorporateActionPartyRole
               description: >-
                 (DDD Entity) - Party for which an account is specified in the context of a
-                corporate action. 
+                corporate action.
           DefaultFundAccountOwner:
               type: string
               format: ClearingMemberRole
               description: >-
                 (DDD Entity) - Clearing member which holds a default fund account at an
-                ICSD or at the central bank. 
+                ICSD or at the central bank.
           System:
               type: string
               format: System
@@ -18139,7 +18139,7 @@ components:
               format: Balance
               description: >-
                 (DDD Entity) - Overall position representing the net debits and credits in
-                an account at a specific point in time. 
+                an account at a specific point in time.
           Entry:
               type: string
               format: Entry
@@ -18149,31 +18149,31 @@ components:
               format: AccountContract
               description: >-
                 (DDD Entity) - Agreement which provides information on the account and on
-                the services linked to it. 
+                the services linked to it.
           OpeningDate:
               type: string
               format: ISODateTime
               description: >-
                 (DDD Entity) - Date on which the account and related basic services are
-                effectively operational for the account owner. 
+                effectively operational for the account owner.
           CurrencyExchange:
               type: string
               format: CurrencyExchange
               description: >-
                 (DDD Entity) - Rate used to calculate the difference between amounts based
-                on the base currency and the reporting currency. 
+                on the base currency and the reporting currency.
           DefaultFundContribution:
               type: string
               format: DefaultFundContribution
               description: >-
                 (DDD Entity) - Default fund contribution parameters associated with a
-                contribution account. 
+                contribution account.
           SystemMember:
               type: string
               format: SystemMemberRole
               description: >-
                 (DDD Entity) - Member of a system which is the owner of an account with the
-                system. 
+                system.
           CollateralAccountType:
               type: string
               format: CollateralAccountTypeCode
@@ -18183,19 +18183,19 @@ components:
               format: AccountService
               description: >-
                 (DDD Entity) - Services linked to the account and specified in the account
-                contract. 
+                contract.
           Reconciliation:
               type: string
               format: Reconciliation
               description: >-
                 (DDD Entity) - Process which compares and matches trade information with
-                entries in an account. 
+                entries in an account.
           ManagedAccountProduct:
               type: string
               format: ManagedAccountProduct
               description: >-
                 (DDD Entity) - Product which provides guidance to investors to manage their
-                portfolios. 
+                portfolios.
     Limit:
         type: object
         description: >-
@@ -18237,20 +18237,20 @@ components:
               format: PercentageRate
               description: >-
                 (DDD Entity) - Specifies that the limit is a percentage of a related
-                amount. 
+                amount.
           RelatedDebitCreditFacility:
               type: string
               format: DebitCreditFacility
               description: >-
                 (DDD Entity) - Overdraft conditions for which limit parameters are
-                specified. 
+                specified.
           Periodicity:
               type: string
               format: FrequencyCode
               description: >-
                 (DDD Entity) - Specifies the periodicity linked to a limit for example the
                 periodicity can indicate that the limit can be reached daily or
-                monthly. 
+                monthly.
           Quantity:
               type: string
               format: DecimalNumber
@@ -18312,19 +18312,19 @@ components:
               format: DebitCreditCode
               description: >-
                 (DDD Entity) - Indicates whether the balance is a credit or a debit
-                balance. A zero balance is considered to be a credit balance 
+                balance. A zero balance is considered to be a credit balance
           AssetHolding:
               type: string
               format: AssetHolding
               description: >-
                 (DDD Entity) - Specifies in terms of value and quantity the assets held in
-                a balance. 
+                a balance.
           CalculationDate:
               type: string
               format: ISODateTime
               description: >-
                 (DDD Entity) - Specifies the date and time at which the balance is
-                calculated. 
+                calculated.
           Adjustment:
               type: string
               format: Adjustment
@@ -18338,7 +18338,7 @@ components:
               format: Interest
               description: >-
                 (DDD Entity) - Set of elements used to provide interest information that
-                applies to the balance. 
+                applies to the balance.
           BalanceEntry:
               type: string
               format: Entry
@@ -18348,13 +18348,13 @@ components:
               format: ProcessingTypeCode
               description: >-
                 (DDD Entity) - Specifies the type of balance processing restrictions that
-                must be applied. 
+                must be applied.
           OpeningClosingCode:
               type: string
               format: OpeningClosingCode
               description: >-
                 (DDD Entity) - Specifies whether the balance is an opening or a closing
-                one. 
+                one.
     Name:
         type: string
         format: ''
@@ -18383,7 +18383,7 @@ components:
               format: PaymentInstruction
               description: >-
                 (DDD Entity) - Payment instruction for which a processing validity time is
-                specified. 
+                specified.
           NumberOfDays:
               type: string
               format: Number
@@ -18393,13 +18393,13 @@ components:
               format: ValuationStatistics
               description: >-
                 (DDD Entity) - Valuation statistics for which a reference period is
-                specified. 
+                specified.
           PerformanceFactors:
               type: string
               format: PerformanceFactors
               description: >-
                 (DDD Entity) - Performance factors for which an accumulation period is
-                specified. 
+                specified.
           Status:
               type: string
               format: Status
@@ -18409,43 +18409,43 @@ components:
               format: SecuritiesPricing
               description: >-
                 (DDD Entity) - Securities pricing for which a price calculation period is
-                specified. 
+                specified.
           CorporateActionOption:
               type: string
               format: CorporateActionOption
               description: >-
                 (DDD Entity) - Corporate action option for which an action period is
-                defined. 
+                defined.
           ParallelTradingProceedsDefinition:
               type: string
               format: SecuritiesProceedsDefinition
               description: >-
                 (DDD Entity) - Securities proceeds for which a parallel trading period is
-                specified. 
+                specified.
           PrivilegeSuspensionCorporateAction:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a privilege suspension period has
-                been defined. 
+                been defined.
           WithdrawalSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals is specified. 
+                withdrawals is specified.
           RelatedInterestCalculation:
               type: string
               format: InterestCalculation
               description: >-
                 (DDD Entity) - Interest calculation process for which an interest period is
-                specified. 
+                specified.
           BiddingConditions:
               type: string
               format: BiddingConditions
               description: >-
                 (DDD Entity) - Bidding conditions for which a compulsory purchase period is
-                specified. 
+                specified.
           ClassAction:
               type: string
               format: ClassAction
@@ -18455,61 +18455,61 @@ components:
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for book entry
-                transfers is specified. 
+                transfers is specified.
           DepositAtAgentSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for deposits
-                at agent is specified. 
+                at agent is specified.
           DepositSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for deposits
-                is specified. 
+                is specified.
           PledgeSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for pledges is
-                specified. 
+                specified.
           SegregationPeriodRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                segregation is specified. 
+                segregation is specified.
           WithdrawalAtAgentSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals at agent is specified. 
+                withdrawals at agent is specified.
           WithdrawalInNomineeNameSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals in nominee name is specified. 
+                withdrawals in nominee name is specified.
           WithdrawalInStreetNameSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                withdrawals in street name is specified. 
+                withdrawals in street name is specified.
           BookClosureCorporateAction:
               type: string
               format: CorporateActionEvent
               description: >-
                 (DDD Entity) - Corporate action for which a book closure period has been
-                specified. 
+                specified.
           CoDepositoriesSuspensionRelatedEvent:
               type: string
               format: SuspensionPeriod
               description: >-
                 (DDD Entity) - Corporate event for which a suspension period for
-                co-depositories is specified. 
+                co-depositories is specified.
           ExtendiblePeriodDebt:
               type: string
               format: Debt
@@ -18519,7 +18519,7 @@ components:
               format: SecuritiesConversion
               description: >-
                 (DDD Entity) - Securities conversion process for which a conversion period
-                is specified. 
+                is specified.
           YieldCalculation:
               type: string
               format: YieldCalculation
@@ -18545,19 +18545,19 @@ components:
               format: SecuritiesProceedsDefinition
               description: >-
                 (DDD Entity) - Securities proceeds for which an assented line period is
-                specified. 
+                specified.
           SellThruIssuerProceedsDefinition:
               type: string
               format: SecuritiesProceedsDefinition
               description: >-
                 (DDD Entity) - Securities proceeds for which a sell thru issuer period is
-                specified. 
+                specified.
           RelatedProductDelivery:
               type: string
               format: ProductDelivery
               description: >-
                 (DDD Entity) - Trade delivery process for which a delivery period is
-                specified. 
+                specified.
           RelatedInvoice:
               type: string
               format: Invoice
@@ -18567,13 +18567,13 @@ components:
               format: TradeCertificate
               description: >-
                 (DDD Entity) - Trade certificate for which an inspection date is
-                specified. 
+                specified.
           RelatedPortfolioValuation:
               type: string
               format: PortfolioValuation
               description: >-
                 (DDD Entity) - Portfolio valuation process for which a valuation period is
-                specified. 
+                specified.
           System:
               type: string
               format: System
@@ -18583,7 +18583,7 @@ components:
               format: AccountRestriction
               description: >-
                 (DDD Entity) - Account restriction for which a validity period is
-                specified. 
+                specified.
           BankOperation:
               type: string
               format: BankOperation
@@ -18593,7 +18593,7 @@ components:
               format: CorporateActionEvent
               description: >-
                 (DDD Entity) - Corporate action event for which a trading period is
-                specified. 
+                specified.
           RelatedLimit:
               type: string
               format: Limit
@@ -18603,7 +18603,7 @@ components:
               format: PartyIdentificationInformation
               description: >-
                 (DDD Entity) - Party identification for which a validity period is
-                specified. 
+                specified.
           AssessmentValidityScheme:
               type: string
               format: Scheme
@@ -18613,25 +18613,25 @@ components:
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which an
-                exercise period is specified. 
+                exercise period is specified.
           OfferPeriodDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which an
-                offer period is specified. 
+                offer period is specified.
           TradingPeriodDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which a
-                trading period is specified. 
+                trading period is specified.
           BlockingPeriodDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash and securities distribution information for which a
-                blocking period is specified. 
+                blocking period is specified.
           Guarantee:
               type: string
               format: Guarantee
@@ -18641,19 +18641,19 @@ components:
               format: SecuritiesPricing
               description: >-
                 (DDD Entity) - Securities pricing for which a price fact period is
-                specified. 
+                specified.
           CashDistribution:
               type: string
               format: Distribution
               description: >-
                 (DDD Entity) - Cash distribution for which an interest period is
-                specified. 
+                specified.
           ComponentSecurity:
               type: string
               format: ComponentSecurity
               description: >-
                 (DDD Entity) - Security component for which a separation period is
-                specified. 
+                specified.
           TradingSession:
               type: string
               format: TradingSession
@@ -18675,7 +18675,7 @@ components:
               format: AccountLink
               description: >-
                 (DDD Entity) - Link between two accounts for which a validity period is
-                specified. 
+                specified.
           RelatedAdjustment:
               type: string
               format: Adjustment
@@ -18685,7 +18685,7 @@ components:
               format: SecuritiesIdentification
               description: >-
                 (DDD Entity) - Securities identification for which a validity period is
-                specified. 
+                specified.
           RelatedStandingSettlementInstruction:
               type: string
               format: StandingSettlementInstruction
@@ -18695,7 +18695,7 @@ components:
               format: BasicSecuritiesRegistration
               description: >-
                 (DDD Entity) - Securities registration process for which a split period is
-                specified. 
+                specified.
           Amount:
               type: string
               format: AmountAndPeriod
@@ -18725,7 +18725,7 @@ components:
               format: SystemAvailability
               description: >-
                 (DDD Entity) - System availability for which the closure period is
-                provided. 
+                provided.
     CurrencyAndAmount:
         type: string
         format: ''
@@ -18751,13 +18751,13 @@ components:
               format: Country
               description: >-
                 (DDD Entity) - Place of taxation of an individual person or an
-                organisation, where the tax is due. 
+                organisation, where the tax is due.
           TaxLiabilityValueCalculation:
               type: string
               format: NetAssetValueCalculation
               description: >-
                 (DDD Entity) - Net asset value calculation for which tax liability
-                information is provided. 
+                information is provided.
           Type:
               type: string
               format: TaxTypeCode
@@ -18779,13 +18779,13 @@ components:
               format: NetAssetValueCalculation
               description: >-
                 (DDD Entity) - Net asset value calculation for which tax refund information
-                is provided. 
+                is provided.
           Basis:
               type: string
               format: TaxationBasisCode
               description: >-
                 (DDD Entity) - Basis used to determine the capital gain or loss, eg, the
-                purchase price. 
+                purchase price.
           SecuritiesTransfer:
               type: string
               format: SecuritiesTransfer
@@ -18815,7 +18815,7 @@ components:
               format: Max35Text
               description: >-
                 (DDD Entity) - Reference used to identify the nature of tax levied, such as
-                Value Added Tax (VAT). 
+                Value Added Tax (VAT).
           RelatedPaymentSettlement:
               type: string
               format: Payment
@@ -18833,19 +18833,19 @@ components:
               format: Max35Text
               description: >-
                 (DDD Entity) - Document issued by taxing authority identifying the tax
-                payer. 
+                payer.
           AdministrationZone:
               type: string
               format: Max140Text
               description: >-
                 (DDD Entity) - Territorial part of a country to which the tax payment is
-                related. 
+                related.
           Method:
               type: string
               format: Max35Text
               description: >-
                 (DDD Entity) - Method used to indicate the underlying business or how the
-                tax is paid. 
+                tax is paid.
           Record:
               type: string
               format: TaxRecord
@@ -18867,7 +18867,7 @@ components:
               format: TaxPartyRole
               description: >-
                 (DDD Entity) - Specifies each role linked to a tax and played by a party in
-                that context. 
+                that context.
           TaxDeduction:
               type: string
               format: CurrencyAndAmount
@@ -18912,7 +18912,7 @@ components:
               format: CurrencyAndAmount
               description: >-
                 (DDD Entity) - Interest amount that has accrued in between coupon payment
-                periods. 
+                periods.
           InterestCalculation:
               type: string
               format: InterestCalculation
@@ -18926,7 +18926,7 @@ components:
               format: PercentageRate
               description: >-
                 (DDD Entity) - The actual interest rate used for the payment of the
-                interest for the specified interest period. 
+                interest for the specified interest period.
           RelatedCashProceedsDefinition:
               type: string
               format: CashProceedsDefinition
@@ -18957,7 +18957,7 @@ components:
               description: >-
                 (DDD Entity) - Management of interest which consists into calculating the
                 interest, requesting its payment or distributing the interest
-                proceeds. 
+                proceeds.
           RelatedUndertakingAmount:
               type: string
               format: UndertakingAmount
@@ -18971,7 +18971,7 @@ components:
               format: SecuritiesSettlement
               description: >-
                 (DDD Entity) - Securities settlement process for which an accrued interest
-                is specified. 
+                is specified.
           InterestName:
               type: string
               format: GenericIdentification
@@ -18993,13 +18993,13 @@ components:
               format: AccountContract
               description: >-
                 (DDD Entity) - Account contract for which interest parameters are
-                specified. 
+                specified.
           RelatedNetAssetValueCalculation:
               type: string
               format: NetAssetValueCalculation
               description: >-
                 (DDD Entity) - Net asset value calculation for which an accrued interest is
-                specified. 
+                specified.
           TypeOfInterest:
               type: string
               format: InterestTypeCode
@@ -19009,7 +19009,7 @@ components:
               format: PaymentCard
               description: >-
                 (DDD Entity) - Payment card for which interest on due amounts is
-                specified. 
+                specified.
     Adjustment:
         type: object
         description: >-
@@ -19023,32 +19023,32 @@ components:
               description: >-
                 (DDD Entity) - Amount of money that results from the application of an
                 adjustment (charges. fees, discount or allowance) to the amount
-                due. 
+                due.
           ChargeRate:
               type: string
               format: PercentageRate
               description: >-
                 (DDD Entity) - Rate used to calculate the amount of the adjustment,
-                allowance, charge or fee. 
+                allowance, charge or fee.
           CalculationMethod:
               type: string
               format: TaxationBasisCode
               description: >-
                 (DDD Entity) - Method used to calculate an adjustment (financial
-                adjustment, charge or allowance). 
+                adjustment, charge or allowance).
           Payment:
               type: string
               format: Payment
               description: >-
                 (DDD Entity) - Specifies the payment resulting from charges due by one
                 party to another or the payment to which adjustements (for
-                instance charges) are applied. 
+                instance charges) are applied.
           Direction:
               type: string
               format: AdjustmentDirectionCode
               description: >-
                 (DDD Entity) - Specifies whether the adjustment must be subtracted or added
-                to the total amount. 
+                to the total amount.
           Reason:
               type: string
               format: Max4AlphaNumericText
@@ -19058,14 +19058,14 @@ components:
               format: LineItem
               description: >-
                 (DDD Entity) - Specifies the line item on which a financial adjustment took
-                place. 
+                place.
           AllowanceChargeIndicator:
               type: string
               format: YesNoIndicator
               description: >-
                 (DDD Entity) - Indication of whether or not this allowance charge is a
                 charge (Indicator is Yes) that should be added or an allowance
-                that should be subtracted (Indicator is No). 
+                that should be subtracted (Indicator is No).
           Price:
               type: string
               format: Price
@@ -19075,13 +19075,13 @@ components:
               format: YesNoIndicator
               description: >-
                 (DDD Entity) - Indication of whether or not this allowance charge is a
-                charge. 
+                charge.
           Type:
               type: string
               format: AdjustmentTypeCode
               description: >-
                 (DDD Entity) - Specifies the type of adjustment applied to the amount of
-                goods/services by means of a code. 
+                goods/services by means of a code.
           CollateralManagement:
               type: string
               format: CollateralManagement
@@ -19103,7 +19103,7 @@ components:
               format: CurrencyExchange
               description: >-
                 (DDD Entity) - Currency exchange for which adjustments such as fees or
-                commissions are applied. 
+                commissions are applied.
           SecuritiesOrder:
               type: string
               format: SecuritiesOrder
@@ -19115,7 +19115,7 @@ components:
                 (DDD Entity) - Information on the calculation method resulting in the tax
                 amount included in the charge transfer. The tax is expressed as
                 a fixed amount, or as a percentage of the charge amount, upon
-                which the tax is applied. 
+                which the tax is applied.
     PercentageRate:
         type: string
         format: ''
@@ -19228,7 +19228,7 @@ components:
     Status:
         type: object
         description: >-
-          (DDD Entity) -  Status |Status 
+          (DDD Entity) -  Status |Status
           (https://www.iso20022.org/standardsrepository/type/Status)|Standard|ISO20022
           BM ()
         properties:
@@ -19257,7 +19257,7 @@ components:
               format: InvestigationPartyRole
               description: >-
                 (DDD Entity) - Role played by a party in the context of assigning a
-                status. 
+                status.
           SettlementStatus:
               type: string
               format: SecuritiesSettlementStatusCode
@@ -19271,7 +19271,7 @@ components:
               format: InstructionProcessingStatusCode
               description: >-
                 (DDD Entity) - Status of processing of a transaction at account servicer
-                level. 
+                level.
           ModificationProcessingStatus:
               type: string
               format: ModificationProcessingStatusCode
@@ -19288,7 +19288,7 @@ components:
               format: SignatureCondition
               description: >-
                 (DDD Entity) - Specifies the signature requirements related to the
-                document. 
+                document.
           MandateIdentification:
               type: string
               format: Max35Text
@@ -19306,7 +19306,7 @@ components:
               format: MandatePartyRole
               description: >-
                 (DDD Entity) - Specifies each role linked to a mandate and played by a
-                party in that context. 
+                party in that context.
           MandateStatus:
               type: string
               format: MandateStatus
@@ -19320,7 +19320,7 @@ components:
               format: Authentication
               description: >-
                 (DDD Entity) - Specifies the transport authentication details related to
-                the mandate. 
+                the mandate.
           TrackingDays:
               type: string
               format: Max35NumericText
@@ -19331,26 +19331,26 @@ components:
               description: >-
                 (DDD Entity) - Specifies whether the direct debit instructions should be
                 automatically re-submitted periodically when bilaterally
-                agreed. 
+                agreed.
           Rate:
               type: string
               format: PercentageRate
               description: >-
                 (DDD Entity) - Pre-agreed increase or decrease rate that will be applied to
-                the collection amount. 
+                the collection amount.
           Frequency:
               type: string
               format: FrequencyCode
               description: >-
                 (DDD Entity) - Regularity with which payment instructions are to be created
-                and processed. 
+                and processed.
           MandatePaymentType:
               type: string
               format: PaymentProcessing
               description: >-
                 (DDD Entity) - Identifies the type of mandate (service level and/or paper
                 or electronic) being requested or given by the initiating
-                party. 
+                party.
     CashDeposit:
         type: object
         description: (DDD Entity) -  CashDeposit| ()|Standard|ISO20022 BM ()
@@ -19360,25 +19360,25 @@ components:
               format: CurrencyAndAmount
               description: >-
                 (DDD Entity) - Specifies the note or coin denomination, including the
-                currency, such as a 50 euro note. 
+                currency, such as a 50 euro note.
           NumberOfNotes:
               type: string
               format: Max15NumericText
               description: >-
                 (DDD Entity) - Specifies the number of notes of the same denomination in
-                the deposit. 
+                the deposit.
           DepositAmount:
               type: string
               format: CurrencyAndAmount
               description: >-
                 (DDD Entity) - Specifies the total amount of money in the cash deposit,
-                that is the note denomination times the number of notes. 
+                that is the note denomination times the number of notes.
           RelatedBankingTransaction:
               type: string
               format: BankingTransaction
               description: >-
                 (DDD Entity) - Describes the type of transaction associated with a cash
-                deposit. 
+                deposit.
     ISODate:
         type: string
         format: ''
@@ -19403,26 +19403,26 @@ components:
               format: ISODateTime
               description: >-
                 (DDD Entity) - Date and time at which the payment execution was created by
-                the instructing agent. 
+                the instructing agent.
           AcceptanceDateTime:
               type: string
               format: ISODateTime
               description: >-
                 (DDD Entity) - Date and time at which all processing conditions for
                 execution of the payment are met and adequate financial cover is
-                available at the account servicing agent. 
+                available at the account servicing agent.
           Payment:
               type: string
               format: Payment
               description: >-
                 (DDD Entity) - Specifies the end to end payment which is at the origin of
-                the payment instruction. 
+                the payment instruction.
           ProcessingInstructions:
               type: string
               format: PaymentProcessing
               description: >-
                 (DDD Entity) - Specifies how the payment must be processed, for instance
-                through which specific clearing channel. 
+                through which specific clearing channel.
           RequestedExecutionDate:
               type: string
               format: ISODateTime
@@ -19436,19 +19436,19 @@ components:
               format: PaymentInvestigationCaseResolution
               description: >-
                 (DDD Entity) - Payment investigation case resolution which is the source of
-                the corrected payment execution. 
+                the corrected payment execution.
           Next:
               type: string
               format: PaymentInstruction
               description: >-
                 (DDD Entity) - Specifies the next payment instruction in the payment
-                end-to-end chain. 
+                end-to-end chain.
           CurrencyExchange:
               type: string
               format: CurrencyExchange
               description: >-
                 (DDD Entity) - Rate used to transform the original amount into the credited
-                amount. 
+                amount.
     PaymentProcessing:
         type: object
         description: >-
@@ -19462,19 +19462,19 @@ components:
               description: >-
                 (DDD Entity) - Indicator of the urgency or order of importance that the
                 instructing party would like the instructed party to apply to
-                the processing of the instruction. 
+                the processing of the instruction.
           ServiceLevel:
               type: string
               format: ServiceLevel
               description: >-
                 (DDD Entity) - Agreement under which or rules under which the transaction
-                should be processed. 
+                should be processed.
           ClearingChannel:
               type: string
               format: ClearingChannelCode
               description: >-
                 (DDD Entity) - Specifies the clearing channel to be used to process the
-                payment instruction. 
+                payment instruction.
           LocalInstrument:
               type: string
               format: ExternalLocalInstrumentCode
@@ -19482,19 +19482,19 @@ components:
                 (DDD Entity) - User community specific instrument.
 
                 Usage : When available, codes provided by local authorities
-                should be used. 
+                should be used.
           CategoryPurpose:
               type: string
               format: PaymentCategoryPurposeCode
               description: >-
                 (DDD Entity) - Specifies the high level purpose of the instruction based on
-                a set of pre-defined categories. 
+                a set of pre-defined categories.
           PaymentExecution:
               type: string
               format: PaymentExecution
               description: >-
                 (DDD Entity) - Payment execution process for which processing parameters
-                are specified. 
+                are specified.
           SequenceType:
               type: string
               format: SequenceTypeCode
@@ -19504,7 +19504,7 @@ components:
               format: Mandate
               description: >-
                 (DDD Entity) - Mandate for which payment processing parametres are
-                specified. 
+                specified.
           BankTransaction:
               type: string
               format: BankTransaction
@@ -19514,13 +19514,13 @@ components:
               format: ContactPoint
               description: >-
                 (DDD Entity) - Specifies the notification method to be used to inform the
-                beneficiary. 
+                beneficiary.
           AdviceType:
               type: string
               format: AdviceTypeCode
               description: >-
                 (DDD Entity) - Specifies the type of advice to report back for the
-                transaction. 
+                transaction.
     PaymentTerms:
         type: object
         description: >-
@@ -19537,7 +19537,7 @@ components:
               format: PercentageRate
               description: >-
                 (DDD Entity) - Specifies that the payment conditions apply to a percentage
-                of the amount due. 
+                of the amount due.
           PaymentPeriod:
               type: string
               format: DateTimePeriod
@@ -19551,19 +19551,19 @@ components:
               format: PaymentTimeCode
               description: >-
                 (DDD Entity) - Specifies the time of the payment relative to an event such
-                as product delivery or receipt of invoice.  
+                as product delivery or receipt of invoice.
           RelatedPaymentScheduleType:
               type: string
               format: RegisteredContract
               description: >-
                 (DDD Entity) - Related type of the payment schedule provided in the
-                contract. 
+                contract.
           RelatedLoan:
               type: string
               format: Loan
               description: >-
                 (DDD Entity) - Schedule for the payment of the interests due on the related
-                loan. 
+                loan.
     DirectDebitMandate:
         type: object
         description: >-
@@ -19580,37 +19580,37 @@ components:
               format: ISODate
               description: >-
                 (DDD Entity) - Date of the final collection of a direct debit as per the
-                mandate. 
+                mandate.
           FirstCollectionDate:
               type: string
               format: ISODate
               description: >-
                 (DDD Entity) - Date of the first collection of a direct debit as per the
-                mandate. 
+                mandate.
           CollectionAmount:
               type: string
               format: CurrencyAndAmount
               description: >-
                 (DDD Entity) - Fixed amount that the debtor has agreed will be collected
-                from their account. 
+                from their account.
           MaximumAmount:
               type: string
               format: CurrencyAndAmount
               description: >-
                 (DDD Entity) - Maximum amount that may be collected from the debtor's
-                account, per instruction. 
+                account, per instruction.
           PreNotification:
               type: string
               format: TrueFalseIndicator
               description: >-
                 (DDD Entity) - Indicates wether a pre-notification must be sent by the
-                creditor to the debtor before a direct debit occurs 
+                creditor to the debtor before a direct debit occurs
           PreNotificationThreshold:
               type: string
               format: Number
               description: >-
                 (DDD Entity) - Specifies the number of days before the direct debit for
-                notifying the debtor. 
+                notifying the debtor.
           Classification:
               type: string
               format: MandateClassificationCode
@@ -19620,7 +19620,7 @@ components:
               format: FrequencyCode
               description: >-
                 (DDD Entity) - Specifies a frequency in terms of an exact point in time or
-                moment within a specified period type. 
+                moment within a specified period type.
     Location:
         type: object
         description: >-
@@ -19645,7 +19645,7 @@ components:
               format: Organisation
               description: >-
                 (DDD Entity) - Organisation which has its operations in a specific
-                location. 
+                location.
           Address:
               type: string
               format: PostalAddress
@@ -19671,7 +19671,7 @@ components:
               format: InsuranceCertificate
               description: >-
                 (DDD Entity) - Insurance for which the claims are payable at a specific
-                location. 
+                location.
           Party:
               type: string
               format: Party
@@ -19690,7 +19690,7 @@ components:
               description: >-
                 (DDD Entity) - Identifies the location, for instance, the name of an
                 airport, a county, a state, a province or a city by a code or a
-                text. eg LHR for London Heathrow airport. 
+                text. eg LHR for London Heathrow airport.
           TaxableParty:
               type: string
               format: Party
@@ -19704,7 +19704,7 @@ components:
               format: Transport
               description: >-
                 (DDD Entity) - Transport process for which a transit location is
-                specified. 
+                specified.
           TimeZone:
               type: string
               format: UTCOffset
@@ -19726,7 +19726,7 @@ components:
                 debtor. For a credit transfer, it is the date and time at which
                 the debtor requests the clearing agent to process the payment.
                 For a securities trade, it is the date and time at which the
-                securities are to be delivered or received. 
+                securities are to be delivered or received.
           RequestedSettlementAmount:
               type: string
               format: CurrencyAndAmount
@@ -19736,13 +19736,13 @@ components:
               format: Max4AlphaNumericText
               description: >-
                 (DDD Entity) - Specifies whether the transaction is to be executed with a
-                high priority. 
+                high priority.
           Trade:
               type: string
               format: Trade
               description: >-
                 (DDD Entity) - Specifies the trade which originates the obligation to
-                deliver a product, cash or securities.. 
+                deliver a product, cash or securities..
           TransactionRisk:
               type: string
               format: TransactionRisk
@@ -19757,7 +19757,7 @@ components:
               description: >-
                 (DDD Entity) - Specifies an obligation resulting from another existing
                 obligation, for instance each leg of a financing agreement is a
-                sub-obligation of the global financing obligation. 
+                sub-obligation of the global financing obligation.
           Offset:
               type: string
               format: ObligationFulfilment
@@ -19768,7 +19768,7 @@ components:
               description: >-
                 (DDD Entity) - Obligation fulfilment process which did not extinguish the
                 obligation but replaced it by a new one, for instance in case of
-                netting. 
+                netting.
           ExposureType:
               type: string
               format: ExposureTypeV2Code
@@ -19820,39 +19820,39 @@ components:
               format: ISODateTime
               description: >-
                 (DDD Entity) - Date and time at which an entry is posted to an account on
-                the account servicer's books. 
+                the account servicer's books.
           Identification:
               type: string
               format: Max35Text
               description: >-
                 (DDD Entity) - Unique and unambiguous identifier for an entry, as assigned
-                by the account servicer. 
+                by the account servicer.
           AccountOwnerTransactionIdentification:
               type: string
               format: Max35Text
               description: >-
                 (DDD Entity) - Unambiguous identification of the transaction as known by
                 the account owner (or the instructing party managing the
-                account). 
+                account).
           AccountServicerTransactionIdentification:
               type: string
               format: Max35Text
               description: >-
                 (DDD Entity) - Unambiguous identification of the transaction as known by
-                the account servicer. 
+                the account servicer.
           ReversalIndicator:
               type: string
               format: TrueFalseIndicator
               description: >-
                 (DDD Entity) - Indicates whether or not the entry is the result of a
-                reversal. 
+                reversal.
           ValueDate:
               type: string
               format: ISODateTime
               description: >-
                 (DDD Entity) - Date and time assets become available to the account owner
                 (in a credit entry), or cease to be available to the account
-                owner (in a debit entry). 
+                owner (in a debit entry).
           BankTransactionCode:
               type: string
               format: BankTransaction
@@ -19862,25 +19862,25 @@ components:
               format: YesNoIndicator
               description: >-
                 (DDD Entity) - Indicates whether the transaction is exempt from commission
-                or not. 
+                or not.
           Role:
               type: string
               format: Role
               description: >-
                 (DDD Entity) - Specifies the role played by a party or a system in the
-                context of an entry in an account. 
+                context of an entry in an account.
           Account:
               type: string
               format: Account
               description: >-
                 (DDD Entity) - Posting of an item to an account, that results in an
-                increase or a decrease to the balance of the account. 
+                increase or a decrease to the balance of the account.
           Balance:
               type: string
               format: Balance
               description: >-
                 (DDD Entity) - Amount that is the result of the sum of the entries from or
-                to an account. 
+                to an account.
           EntryType:
               type: string
               format: EntryCode
