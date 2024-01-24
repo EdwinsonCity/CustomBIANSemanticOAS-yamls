@@ -1303,7 +1303,7 @@ components:
               $ref: '#/components/schemas/Value'
               description: ''
           AmountCurrency:
-              $ref: '#/components/schemas/Currencycode'
+              $ref: '#/components/schemas/CurrencyCode'
               description: ''
           DecimalPointPosition:
               type: string
@@ -1324,13 +1324,15 @@ components:
                   -  Used
               type: string
               description: ">\r\n* `Principal` \r\n* `Actual` \r\n* `Estimated` \r\n* `Maximum` \r\n* `Default` \r\n* `Replacement` \r\n* `Incremental` \r\n* `Decremental` \r\n* `Reserved` \r\n* `Available` \r\n* `Used` \r\n* "
-    Currencycode:
-        type: object
-        properties:
-          Currencycode:
-              type: string
-              description: ''
-              format: DataType
+    CurrencyCode:
+        type: string
+        format: ''
+        description: >-
+          (DDD Entity) - Code allocated to a currency, by a maintenance agency, under an
+          international identification scheme as described in the latest edition
+          of the international standard ISO 4217 "Codes for the representation
+          of currencies and funds". Valid currency codes are registered with the
+          ISO 4217 Maintenance Agency, and consist of three contiguous letters.
     InitiateCustomerOfferProcedureResponse:
         type: object
         properties:

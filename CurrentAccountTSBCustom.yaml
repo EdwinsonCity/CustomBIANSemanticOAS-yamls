@@ -5638,7 +5638,7 @@ components:
               $ref: '#/components/schemas/Value'
               description: ''
           AmountCurrency:
-              $ref: '#/components/schemas/Currencycode'
+              $ref: '#/components/schemas/CurrencyCode'
               description: ''
           DecimalPointPosition:
               type: string
