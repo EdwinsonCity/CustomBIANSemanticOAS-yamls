@@ -3079,17 +3079,28 @@ components:
               description: >-
                 Information that locates and identifies a specific address, as by postal services, presented in free format text.
           StreetName:
-              $ref: '#/components/schemas/Name'
-              description: '|||'
-          BuildingNumber:
-              $ref: '#/components/schemas/Number'
-              description: '|||'
-          PostCode:
-              $ref: '#/components/schemas/Identifier'
-              description: '|||'
+              type: string
+              format: Max35Text
+              description: '(DDD Entity) - Name of a street or thoroughfare. '
+          StreetBuildingIdentification:
+              type: string
+              format: Max35Text
+              description: >-
+                (DDD Entity) - Number that identifies the position of a building on a
+                street. 
+          PostCodeIdentification:
+              type: string
+              format: Max16Text
+              description: >-
+                (DDD Entity) - Identifier consisting of a group of letters and/or numbers
+                that is added to a postal address to assist the sorting of
+                mail. 
           TownName:
-              $ref: '#/components/schemas/Name'
-              description: '|||'
+              type: string
+              format: Max35Text
+              description: >-
+                (DDD Entity) - Name of a built-up area, with defined boundaries, and a
+                local government.
           CountrySubDivision:
               enum:
                   -  Continent
