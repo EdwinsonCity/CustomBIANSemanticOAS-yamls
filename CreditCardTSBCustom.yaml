@@ -13690,8 +13690,7 @@ components:
               format: CurrencyCode
               description: '(DDD Entity) - Base currency of the account. '
           Identification:
-              type: string
-              format: AccountIdentification
+              $ref: '#/components/schemas/AccountIdentification'
               description: >-
                 (DDD Entity) - Unique and unambiguous identification for the account
                 between the account owner and the account servicer.
